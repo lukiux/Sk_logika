@@ -1,0 +1,36 @@
+timestamp=1462187110404
+
+[~A]
+ModifyID=2
+Version=73
+
+[schemam1]
+A/schematic=A/SCHEMATIC 21|./../../LD4/SchemaM1.vhd|24|1*0
+BinI32/schematic=3*0
+I=0*729
+I/schematic=I/SCHEMATIC 0*4096
+M=11|0|vc6|1462187109998|./../../LD4/SchemaM1.vhd|0*212*0xe1ad7fe57e6d6d14f94246caeeee0254aa11ef59|0*645*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1462187110013|./../../LD4/SchemaM1.vhd|0*891*0x1f292ec0551d821ade623c197b62decffd06f0bd|0*3999*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../LD4/SchemaM1.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|0bfe960de7058cc27367d7aa7849cdddbf89b22cd5f589fd26d5e14ab472f13ff599ba3eba53a7f574cd0a6105e8af0b
+Version/schematic=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d745c752949ab2e4b3ac0391b478d222f2
+
+[schemamsk]
+A/schematic=A/SCHEMATIC 21|./../../LD4/SchemaMsk.vhd|24|1*8069
+BinI32/schematic=3*391
+I=0*5382
+I/schematic=I/SCHEMATIC 0*8538
+M=11|0|vc6|1462187110334|./../../LD4/SchemaMsk.vhd|0*4855*0xb0b95576d0041e544584bd98c4c29405683e9aa2|0*5296*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1462187110342|./../../LD4/SchemaMsk.vhd|0*5545*0x892433b9a7b777469b406657f06844d8d1e75e17|0*8439*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../LD4/SchemaMsk.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|cfc57a4d226e5f3949d7230a732cdeb5486e58ba119ad2ce997f4e6f54a40fdd2b67f2ff1acc4d77565d323a09cb6a74
+Version/schematic=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7d1f43ca6e28a481478613b7d1f8e63bd
+
+[~MFT]
+0=7|0work.mgf|8538|0
+1=1|1work.mgf|8069|0
+3=1|3work.mgf|391|0
+
+[~U]
+schemam1=SCHEMAM1 11|0*0|
+schemamsk=SCHEMAMSK 11|0*4639|

@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\Z585\Desktop\LDtrecias\Testas3\src\TestBench\schemapostumis_TB.vhd" 
+MESSAGE "Compile Entity "schemapostumis_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "schemapostumis_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_schemapostumis"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

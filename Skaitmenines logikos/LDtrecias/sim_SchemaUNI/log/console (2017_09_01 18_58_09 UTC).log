@@ -1,0 +1,24 @@
+# Waveform file 'C:/Users/Z585/Desktop/LDtrecias/test.awc' connected to 'C:/Users/Z585/Desktop/LDtrecias/test.asdb'.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaUNI.vhd
+# Adding file C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaUNI.vhd ... Done
+vlib C:/Users/Z585/Desktop/LDtrecias/sim_SchemaUNI/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaUNI.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaUNI.vhd
+# Compile Entity "SCHEMAUNI"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAUNI"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vsim +access +r -PL pmi_work -L ovi_xp2
+# Error: vsim: cannot select specified top-level
+add wave *
+# Warning: WAVEFORM: Object matching /* not found in C:/Users/Z585/Desktop/LDtrecias/test.asdb.

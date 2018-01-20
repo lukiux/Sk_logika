@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="LD3" device="LFXP2-5E-6TN144C" default_implementation="LD3">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="LD3" dir="LD3" description="LD3" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SCHEMAPLIS"/>
+        <Source name="SchemaUNI.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMAUNI"/>
+        </Source>
+        <Source name="SchemaPostumis.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMAPOSTUMIS"/>
+        </Source>
+        <Source name="SchemaPLIS.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMAPLIS"/>
+        </Source>
+        <Source name="LD3.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="sim_SchemaUNI/sim_SchemaUNI.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Test/Test.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="TESTAS/TESTAS.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="TESTAS1/TESTAS1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Testas2/Testas2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Testas3/Testas3.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="testt/testt.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="LD31.sty"/>
+</BaliProject>

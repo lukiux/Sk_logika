@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+testD=testD.adf
+[Settings]
+Active=testD
+[Expand]
+testd=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

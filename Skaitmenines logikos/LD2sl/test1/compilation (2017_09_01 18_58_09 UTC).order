@@ -1,0 +1,4 @@
+.\..\impl1\schemaSR.vhd
+.\..\impl1\schemaMS.vhd
+.\src\TestBench\schemasr_TB.vhd
+.\src\TestBench\schemams_TB.vhd

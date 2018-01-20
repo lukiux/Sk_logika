@@ -1,0 +1,313 @@
+<HTML>
+<HEAD><TITLE>Project Summary</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Mrp"></A>
+        Lattice Mapping Report File for Design Module 'SCHEMAMSKPLIS'
+
+
+
+<A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
+
+Command line:   map -a LatticeXP2 -p LFXP2-5E -t TQFP144 -s 6 -oc Commercial
+     LD4_LD4.ngd -o LD4_LD4_map.ncd -pr LD4_LD4.prf -mp LD4_LD4.mrp -lpf
+     C:/Users/Z585/Desktop/LD4sl/LD4/LD4_LD4_synplify.lpf -lpf
+     C:/Users/Z585/Desktop/LD4sl/LD4.lpf -gui -msgset
+     C:/Users/Z585/Desktop/LD4sl/promote.xml 
+Target Vendor:  LATTICE
+Target Device:  LFXP2-5ETQFP144
+Target Performance:   6
+Mapper:  mg5a00,  version:  Diamond (64-bit) 3.6.0.83.4
+Mapped on:  05/09/16  12:02:03
+
+
+<A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
+   Number of registers:      8 out of  3864 (0%)
+      PFU registers:            8 out of  3564 (0%)
+      PIO registers:            0 out of   300 (0%)
+   Number of SLICEs:        15 out of  2376 (1%)
+      SLICEs as Logic/ROM:     15 out of  2376 (1%)
+      SLICEs as RAM:            0 out of   405 (0%)
+      SLICEs as Carry:          0 out of  2376 (0%)
+   Number of LUT4s:         19 out of  4752 (0%)
+      Number used as logic LUTs:         19
+      Number used as distributed RAM:     0
+      Number used as ripple logic:        0
+      Number used as shift registers:     0
+   Number of PIO sites used: 10 out of 100 (10%)
+   Number of PIO FIXEDDELAY:    0
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of block RAMs:  0 out of 9 (0%)
+   Number of CLKDIVs:  0 out of 2 (0%)
+   Number of GSRs:  1 out of 1 (100%)
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  No
+   Startup used :   No
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+
+        Number Of Mapped DSP Components:
+   --------------------------------
+   MULT36X36B          0
+   MULT18X18B          0
+   MULT18X18MACB       0
+   MULT18X18ADDSUBB    0
+   MULT18X18ADDSUBSUMB 0
+   MULT9X9B            0
+   MULT9X9ADDSUBB      0
+   MULT9X9ADDSUBSUMB   0
+   --------------------------------
+   Number of Used DSP Sites:  0 out of 24 (0 %)
+
+   Number of clocks:  2
+     Net C_c: 2 loads, 2 rising, 0 falling (Driver: PIO C )
+     Net N_6: 3 loads, 0 rising, 3 falling (Driver: I7/I53 )
+   Number of Clock Enables:  0
+   Number of local set/reset loads for net N_8 merged into GSR:  8
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net N_11: 7 loads
+     Net N_17: 7 loads
+     Net N_5: 7 loads
+     Net N_9: 6 loads
+     Net N_12: 5 loads
+     Net N_15: 5 loads
+     Net I6/Q13: 3 loads
+     Net N_10: 3 loads
+     Net I7/N_103: 1 loads
+     Net I7/N_32: 1 loads
+
+
+
+
+   Number of warnings:  1
+   Number of errors:    0
+     
+
+
+
+
+<A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
+
+WARNING - map: Using local reset signal 'N_8' to infer global GSR net.
+
+
+
+<A name="mrp_ioa"></A><B><U><big>IO (PIO) Attributes</big></U></B>
+
++---------------------+-----------+-----------+------------+------------+
+| IO Name             | Direction | Levelmode | IO         | FIXEDDELAY |
+|                     |           |  IO_TYPE  | Register   |            |
++---------------------+-----------+-----------+------------+------------+
+| Q10                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| C                   | INPUT     | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Q23                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Q22                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Q21                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Q20                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Q13                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Q12                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+| Q11                 | OUTPUT    | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+| R                   | INPUT     | LVCMOS25  |            |            |
++---------------------+-----------+-----------+------------+------------+
+
+
+
+<A name="mrp_rm"></A><B><U><big>Removed logic</big></U></B>
+
+Block VCC undriven or does not drive anything - clipped.
+Block GND undriven or does not drive anything - clipped.
+Block I6/VCC undriven or does not drive anything - clipped.
+Block I7/VCC undriven or does not drive anything - clipped.
+Signal N_7 was merged into signal N_6
+Signal N_13 was merged into signal R_c
+Signal I6/N_98 was merged into signal N_15
+Signal I6/N_85 was merged into signal I6/Q13
+Signal I6/N_101 was merged into signal N_5
+Signal I6/N_104 was merged into signal N_17
+Signal I6/N_31 was merged into signal I6/N_32
+Signal I6/N_26 was merged into signal I6/N_52
+Signal I6/N_102 was merged into signal I6/N_103
+Signal I6/N_42 was merged into signal I6/N_54
+Signal I7/N_98 was merged into signal N_10
+Signal I7/N_85 was merged into signal N_9
+Signal I7/N_101 was merged into signal N_12
+Signal I7/N_104 was merged into signal N_11
+Signal I7/N_42 was merged into signal I7/N_54
+Signal I7/N_31 was merged into signal I7/N_32
+Signal I7/N_26 was merged into signal I7/N_52
+Signal I7/N_102 was merged into signal I7/N_103
+Signal I6/GND undriven or does not drive anything - clipped.
+Signal I7/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Block I2 was optimized away.
+Block I16 was optimized away.
+Block I6/I33 was optimized away.
+Block I6/I28 was optimized away.
+Block I6/I35 was optimized away.
+Block I6/I34 was optimized away.
+Block I6/I42/GATE was optimized away.
+Block I6/I40/GATE was optimized away.
+Block I6/I41/GATE was optimized away.
+Block I6/I43/GATE was optimized away.
+Block I7/I33 was optimized away.
+Block I7/I28 was optimized away.
+Block I7/I35 was optimized away.
+Block I7/I34 was optimized away.
+Block I7/I43/GATE was optimized away.
+Block I7/I42/GATE was optimized away.
+Block I7/I40/GATE was optimized away.
+Block I7/I41/GATE was optimized away.
+Block I6/GND was optimized away.
+Block I7/GND was optimized away.
+
+
+
+<A name="mrp_gsr"></A><B><U><big>GSR Usage</big></U></B>
+---------
+
+GSR Component:
+
+   The local reset signal 'N_8' of the design has been inferred as Global Set
+        Reset (GSR). The reset signal used for GSR control is 'N_8'.
+        
+
+     GSR Property:
+   The design components with GSR property set to ENABLED will respond to global
+        set reset while the components with GSR property set to DISABLED will
+        not.
+        
+
+
+
+<A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 57 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights
+     reserved.
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

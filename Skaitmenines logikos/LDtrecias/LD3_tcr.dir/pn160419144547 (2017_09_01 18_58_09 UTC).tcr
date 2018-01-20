@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/19/2016 14:16:07
+#Project Location: C:/Users/Z585/Desktop/LDtrecias; Project name: LD3
+prj_project open "C:/Users/Z585/Desktop/LDtrecias/LD3.ldf"
+prj_run Synthesis -impl LD3
+#Stop recording: 4/19/2016 14:45:47

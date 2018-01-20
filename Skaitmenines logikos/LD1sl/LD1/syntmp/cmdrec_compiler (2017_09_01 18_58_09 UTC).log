@@ -1,0 +1,10 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  E:\LD1sl\LD1\synwork\LD1_LD1_comp.srs  -top  DEKODERIS3  -hdllog  E:\LD1sl\LD1\synlog\LD1_LD1_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  E:\LD1sl\LD1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work E:\LD1sl\LD1\dekoderis.vhd -lib work E:\LD1sl\LD1\dekoderis2.vhd -lib work E:\LD1sl\LD1\dekoderis3.vhd 
+rc:0 success:1
+E:\LD1sl\LD1\synwork\LD1_LD1_comp.srs|o|1456823476|4092
+E:\LD1sl\LD1\synlog\LD1_LD1_compiler.srr|o|1456823476|3965
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd|i|1376989208|146261
+E:\LD1sl\LD1\dekoderis.vhd|i|1456823469|3334
+E:\LD1sl\LD1\dekoderis2.vhd|i|1456823469|2955
+E:\LD1sl\LD1\dekoderis3.vhd|i|1456823470|3525
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439941522|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439941710|1896960

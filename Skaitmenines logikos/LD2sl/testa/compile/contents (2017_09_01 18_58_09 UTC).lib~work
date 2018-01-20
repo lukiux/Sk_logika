@@ -1,0 +1,11 @@
+12
+~E 1 "./../../impl1/schemaMS.vhd" 8 SCHEMAMS
+~A 1 "./../../impl1/schemaMS.vhd" 19 SCHEMATIC
+~E 1 "./../src/TestBench/schemams_TB.vhd" 8 schemams1_tb
+~A 1 "./../src/TestBench/schemams_TB.vhd" 11 TB_ARCHITECTURE
+~E 1 "./../../impl1/schemaSR.vhd" 8 SCHEMASR
+~A 1 "./../../impl1/schemaSR.vhd" 19 SCHEMATIC
+~E 1 "./../src/TestBench/schemasr_TB.vhd" 8 schemasr_tb
+~A 1 "./../src/TestBench/schemasr_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/schemams_TB.vhd" 82 testbench_for_schemams
+~C 1 "./../src/TestBench/schemasr_TB.vhd" 82 testbench_for_schemasr

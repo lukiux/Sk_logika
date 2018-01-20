@@ -1,0 +1,40 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|SCHEMAMSKPLIS|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\Z585\\Desktop\\LD4sl\\LD4\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\bin64\\c_vhdl.exe":1439945374
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\location.map":1440031146
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\std1164.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\numeric.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\arith.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1439945016
+#CUR:"C:\\lscc\\diamond\\3.6_x64\\cae_library\\synthesis\\vhdl\\xp2.vhd":1376992808
+#CUR:"C:\\Users\\Z585\\Desktop\\LD4sl\\LD4\\SchemaMsk.vhd":1462784512
+#CUR:"C:\\Users\\Z585\\Desktop\\LD4sl\\LD4\\SchemaMSK2.vhd":1462784512
+#CUR:"C:\\Users\\Z585\\Desktop\\LD4sl\\LD4\\SchemaMskPLIS.vhd":1462784512
+0 "C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd" vhdl
+1 "C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd" vhdl
+2 "C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd" vhdl
+3 "C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMskPLIS.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+2 1 0 
+3 1 0 
+
+# Dependency Lists (Users Of)
+0 3 2 1 
+1 3 2 
+2 -1
+3 -1
+
+# Design Unit to File Association
+arch work schemamsk schematic 1
+module work schemamsk 1
+arch work schemamsk2 schematic 2
+module work schemamsk2 2
+arch work schemamskplis schematic 3
+module work schemamskplis 3

@@ -1,0 +1,301 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Apr 09 00:50:16 2016
+#
+
+
+Top view:               SchemaUNI
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.065
+
+                    Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack      Type         Group                
+-------------------------------------------------------------------------------------------------------------------------
+SchemaUNI|clock     1.0 MHz       1.0 MHz       1000.000      998.902       1.099      inferred     Autoconstr_clkgroup_0
+System              1.0 MHz       1.0 MHz       1000.000      1000.065      -0.065     system       system_clkgroup      
+=========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------
+System           SchemaUNI|clock  |  0.000       -0.065  |  No paths    -      |  No paths    -      |  No paths    -    
+SchemaUNI|clock  System           |  0.000       1.099   |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: SchemaUNI|clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                         Arrival          
+Instance     Reference           Type        Pin     Net      Time        Slack
+             Clock                                                             
+-------------------------------------------------------------------------------
+I10          SchemaUNI|clock     FD1S3AX     Q       Q0_c     0.696       1.099
+I13          SchemaUNI|clock     FD1S3AX     Q       Q7_c     0.696       1.099
+I9           SchemaUNI|clock     FD1S3AX     Q       Q1_c     0.724       1.127
+I11          SchemaUNI|clock     FD1S3AX     Q       Q5_c     0.724       1.127
+I12          SchemaUNI|clock     FD1S3AX     Q       Q6_c     0.724       1.127
+I14          SchemaUNI|clock     FD1S3AX     Q       Q2_c     0.724       1.127
+I15          SchemaUNI|clock     FD1S3AX     Q       Q3_c     0.724       1.127
+I16          SchemaUNI|clock     FD1S3AX     Q       Q4_c     0.724       1.127
+===============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                      Required          
+Instance     Reference           Type     Pin     Net      Time         Slack
+             Clock                                                           
+-----------------------------------------------------------------------------
+I1           SchemaUNI|clock     AND2     A       N_4      0.000        1.099
+I2           SchemaUNI|clock     AND2     A       N_2      0.000        1.099
+I4           SchemaUNI|clock     AND2     A       N_14     0.000        1.099
+I5           SchemaUNI|clock     AND2     A       N_16     0.000        1.099
+I3           SchemaUNI|clock     AND2     A       N_12     0.000        1.127
+I6           SchemaUNI|clock     AND2     A       N_6      0.000        1.127
+I7           SchemaUNI|clock     AND2     A       N_8      0.000        1.127
+I8           SchemaUNI|clock     AND2     A       N_10     0.000        1.127
+=============================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        1.099
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 1.099
+
+    Number of logic level(s):                1
+    Starting point:                          I10 / Q
+    Ending point:                            I1 / A
+    The start point is clocked by            SchemaUNI|clock [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I10                FD1S3AX     Q        Out     0.696     0.696       -         
+Q0_c               Net         -        -       -         -           3         
+I17                MUX41       D2       In      0.000     0.696       -         
+I17                MUX41       Z        Out     0.403     1.099       -         
+N_4                Net         -        -       -         -           1         
+I1                 AND2        A        In      0.000     1.099       -         
+================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                Arrival           
+Instance     Reference     Type     Pin     Net      Time        Slack 
+             Clock                                                     
+-----------------------------------------------------------------------
+I1           System        AND2     Z       N_3      0.000       -0.065
+I2           System        AND2     Z       N_1      0.000       -0.065
+I3           System        AND2     Z       N_11     0.000       -0.065
+I4           System        AND2     Z       N_13     0.000       -0.065
+I5           System        AND2     Z       N_15     0.000       -0.065
+I6           System        AND2     Z       N_5      0.000       -0.065
+I7           System        AND2     Z       N_7      0.000       -0.065
+I8           System        AND2     Z       N_9      0.000       -0.065
+=======================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                   Required           
+Instance     Reference     Type        Pin     Net      Time         Slack 
+             Clock                                                         
+---------------------------------------------------------------------------
+I9           System        FD1S3AX     D       N_3      0.065        -0.065
+I10          System        FD1S3AX     D       N_1      0.065        -0.065
+I11          System        FD1S3AX     D       N_11     0.065        -0.065
+I12          System        FD1S3AX     D       N_13     0.065        -0.065
+I13          System        FD1S3AX     D       N_15     0.065        -0.065
+I14          System        FD1S3AX     D       N_5      0.065        -0.065
+I15          System        FD1S3AX     D       N_7      0.065        -0.065
+I16          System        FD1S3AX     D       N_9      0.065        -0.065
+===========================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.065
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.065
+
+    Number of logic level(s):                0
+    Starting point:                          I1 / Z
+    Ending point:                            I9 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            SchemaUNI|clock [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I1                 AND2        Z        Out     0.000     0.000       -         
+N_3                Net         -        -       -         -           1         
+I9                 FD1S3AX     D        In      0.000     0.000       -         
+================================================================================
+
+
+Path information for path number 2: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.065
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.065
+
+    Number of logic level(s):                0
+    Starting point:                          I2 / Z
+    Ending point:                            I10 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            SchemaUNI|clock [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I2                 AND2        Z        Out     0.000     0.000       -         
+N_1                Net         -        -       -         -           1         
+I10                FD1S3AX     D        In      0.000     0.000       -         
+================================================================================
+
+
+Path information for path number 3: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.065
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.065
+
+    Number of logic level(s):                0
+    Starting point:                          I3 / Z
+    Ending point:                            I11 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            SchemaUNI|clock [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I3                 AND2        Z        Out     0.000     0.000       -         
+N_11               Net         -        -       -         -           1         
+I11                FD1S3AX     D        In      0.000     0.000       -         
+================================================================================
+
+
+Path information for path number 4: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.065
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.065
+
+    Number of logic level(s):                0
+    Starting point:                          I4 / Z
+    Ending point:                            I12 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            SchemaUNI|clock [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I4                 AND2        Z        Out     0.000     0.000       -         
+N_13               Net         -        -       -         -           1         
+I12                FD1S3AX     D        In      0.000     0.000       -         
+================================================================================
+
+
+Path information for path number 5: 
+    Propagation time:                        0.000
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.065
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     -0.065
+
+    Number of logic level(s):                0
+    Starting point:                          I5 / Z
+    Ending point:                            I13 / D
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            SchemaUNI|clock [rising] on pin CK
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I5                 AND2        Z        Out     0.000     0.000       -         
+N_15               Net         -        -       -         -           1         
+I13                FD1S3AX     D        In      0.000     0.000       -         
+================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

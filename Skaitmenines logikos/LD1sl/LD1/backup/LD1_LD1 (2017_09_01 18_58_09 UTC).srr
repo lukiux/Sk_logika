@@ -1,0 +1,378 @@
+#Build: Synplify Pro J-2015.03L-SP1, Build 123R, Aug 18 2015
+#install: C:\lscc\diamond\3.6_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: LUKAS_PC
+
+#Implementation: LD1
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd":8:7:8:16|Top entity is set to DEKODERIS3.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd":8:7:8:16|Synthesizing work.dekoderis3.schematic 
+@W: CD638 :"C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd":21:10:21:12|Signal gnd is undriven 
+@W: CD638 :"C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd":22:10:22:12|Signal vcc is undriven 
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box 
+Post processing for work.inv.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":74:10:74:13|Synthesizing work.and3.syn_black_box 
+Post processing for work.and3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1033:10:1033:14|Synthesizing work.mux41.syn_black_box 
+Post processing for work.mux41.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1324:10:1324:12|Synthesizing work.or3.syn_black_box 
+Post processing for work.or3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1315:10:1315:12|Synthesizing work.or2.syn_black_box 
+Post processing for work.or2.syn_black_box
+Post processing for work.dekoderis3.schematic
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 16 19:49:11 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 67MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 16 19:49:13 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Tue Feb 16 19:49:14 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 67MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 16 19:49:15 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\Z585\Desktop\LD1\LD1\LD1_LD1_scck.rpt 
+Printing clock  summary report in "C:\Users\Z585\Desktop\LD1\LD1\LD1_LD1_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=9  set on top level netlist DEKODERIS3
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start      Requested     Requested     Clock      Clock          
+Clock      Frequency     Period        Type       Group          
+-----------------------------------------------------------------
+System     1.0 MHz       1000.000      system     system_clkgroup
+=================================================================
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 16 19:49:17 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 105MB peak: 140MB)
+
+Writing Analyst data base C:\Users\Z585\Desktop\LD1\LD1\synwork\LD1_LD1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+J-2015.03L-SP1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 141MB peak: 143MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+@W: MT246 :"c:\users\z585\desktop\ld1\ld1\dekoderis3.vhd":94:3:94:5|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\z585\desktop\ld1\ld1\dekoderis3.vhd":81:3:81:4|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Feb 16 19:49:19 2016
+#
+
+
+Top view:               DEKODERIS3
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 1000.000
+
+@N: MT286 |System clock period 0.000 stretches to negative invalid value -- ignoring stretching.
+                   Requested     Estimated     Requested     Estimated                  Clock      Clock          
+Starting Clock     Frequency     Frequency     Period        Period        Slack        Type       Group          
+------------------------------------------------------------------------------------------------------------------
+System             1.0 MHz       NA            1000.000      0.000         1000.000     system     system_clkgroup
+==================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise      |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack     |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+System    System  |  1000.000    1000.000  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                Arrival             
+Instance     Reference     Type     Pin     Net      Time        Slack   
+             Clock                                                       
+-------------------------------------------------------------------------
+I6           System        AND3     Z       N_7      0.000       1000.000
+I7           System        AND3     Z       N_8      0.000       1000.000
+I8           System        AND3     Z       N_9      0.000       1000.000
+I9           System        AND3     Z       N_6      0.000       1000.000
+I10          System        AND3     Z       N_10     0.000       1000.000
+=========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                Required             
+Instance     Reference     Type     Pin     Net      Time         Slack   
+             Clock                                                        
+--------------------------------------------------------------------------
+I1           System        OR2      A       N_6      1000.000     1000.000
+I1           System        OR2      B       N_9      1000.000     1000.000
+I2           System        OR3      A       N_6      1000.000     1000.000
+I2           System        OR3      B       N_9      1000.000     1000.000
+I2           System        OR3      C       N_7      1000.000     1000.000
+I3           System        OR3      A       N_6      1000.000     1000.000
+I3           System        OR3      B       N_9      1000.000     1000.000
+I3           System        OR3      C       N_8      1000.000     1000.000
+I4           System        OR3      A       N_10     1000.000     1000.000
+I4           System        OR3      B       N_6      1000.000     1000.000
+==========================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      0.000
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     1000.000
+
+    Number of logic level(s):                0
+    Starting point:                          I6 / Z
+    Ending point:                            I2 / C
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net              Pin      Pin               Arrival     No. of    
+Name               Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------
+I6                 AND3     Z        Out     0.000     0.000       -         
+N_7                Net      -        -       -         -           1         
+I2                 OR3      C        In      0.000     0.000       -         
+=============================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-6
+
+Register bits: 0 of 4752 (0%)
+PIC Latch:       0
+I/O cells:       7
+
+
+Details:
+GSR:            1
+IB:             6
+INV:            4
+MUX41:          1
+OB:             1
+OR2:            1
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 52MB peak: 143MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Feb 16 19:49:20 2016
+
+###########################################################]

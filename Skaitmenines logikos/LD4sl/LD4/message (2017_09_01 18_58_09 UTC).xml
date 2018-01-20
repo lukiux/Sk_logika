@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>N_8</Dynamic>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=C_c loads=2 clock_loads=2
+   Signal=N_6 loads=3 clock_loads=3</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=C_c loads=2 clock_loads=2
+   Signal=N_6 loads=3 clock_loads=3</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMskPLIS.vhd&quot;:24:10:24:12|Signal gnd is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMskPLIS.vhd</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal gnd is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMskPLIS.vhd&quot;:25:10:25:12|Signal vcc is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMskPLIS.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal vcc is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd&quot;:26:10:26:12|Signal gnd is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal gnd is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd&quot;:27:10:27:12|Signal vcc is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal vcc is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd&quot;:44:14:44:17|Signal n_59 is undriven</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>44</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Signal n_59 is undriven </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:131:3:131:5|Net I7.p appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Net I7.p appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT531 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:149:3:149:5|Found signal identified as System clock which controls 0 sequential elements including I6.I49.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance.</Dynamic>
+            <Navigation>MT531</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found signal identified as System clock which controls 0 sequential elements including I6.I49.  Using this clock, which has no specified timing constraint, can prevent conversion of gated or generated clocks and can adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:149:3:149:5|Found inferred clock SCHEMAMSKPLIS|C which controls 0 sequential elements including I7.I49. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>149</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock SCHEMAMSKPLIS|C which controls 0 sequential elements including I7.I49. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:131:3:131:5|Net N_6 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Net N_6 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:131:3:131:5|Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT462 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:131:3:131:5|Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency.</Dynamic>
+            <Navigation>MT462</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>131</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamskplis.vhd&quot;:82:3:82:5|Blackbox AND4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamskplis.vhd</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>82</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Blackbox AND4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:121:3:121:5|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>121</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd&quot;:107:3:107:5|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd</Navigation>
+            <Navigation>107</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>107</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock SCHEMAMSKPLIS|C with period 1000.00ns. Please declare a user-defined clock on object &quot;p:C&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock SCHEMAMSKPLIS|C with period 1000.00ns. Please declare a user-defined clock on object &quot;p:C&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

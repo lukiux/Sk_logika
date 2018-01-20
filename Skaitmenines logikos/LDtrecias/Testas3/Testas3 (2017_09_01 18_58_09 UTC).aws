@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+Testas3=Testas3.adf
+[Settings]
+Active=Testas3
+[Expand]
+testas3=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

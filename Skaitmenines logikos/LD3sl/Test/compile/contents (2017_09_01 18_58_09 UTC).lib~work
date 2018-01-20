@@ -1,0 +1,7 @@
+3
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./../../LD3/SchemaUNI.v" 3 SchemaUNI
+~A 1 "./../../LD3/SchemaUNI.v" 3 SchemaUNI
+~M 3 "./../src/TestBench/SchemaUNI_TB.v" 22 SchemaUNI_tb
+~A 1 "./../src/TestBench/SchemaUNI_TB.v" 22 SchemaUNI_tb

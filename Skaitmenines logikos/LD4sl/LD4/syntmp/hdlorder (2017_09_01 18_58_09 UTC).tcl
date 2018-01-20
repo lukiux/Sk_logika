@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.6_x64/cae_library/synthesis/vhdl/xp2.vhd" "C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd" "C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMSK2.vhd" "C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMskPLIS.vhd" 

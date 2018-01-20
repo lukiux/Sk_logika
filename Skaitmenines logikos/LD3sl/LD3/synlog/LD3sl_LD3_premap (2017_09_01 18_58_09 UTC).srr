@@ -1,0 +1,51 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\Users\Z585\Desktop\LD3sl\LD3\LD3SL_LD3_scck.rpt 
+Printing clock  summary report in "C:\Users\Z585\Desktop\LD3sl\LD3\LD3SL_LD3_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=9  set on top level netlist SchemaUNI
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start               Requested     Requested     Clock        Clock                
+Clock               Frequency     Period        Type         Group                
+----------------------------------------------------------------------------------
+SchemaUNI|clock     1.0 MHz       1000.000      inferred     Autoconstr_clkgroup_0
+System              1.0 MHz       1000.000      system       system_clkgroup      
+==================================================================================
+
+@W: MT529 :"c:\users\z585\desktop\ld3sl\ld3\schemauni.v":54:8:54:9|Found inferred clock SchemaUNI|clock which controls 0 sequential elements including I9. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 140MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Apr 09 00:50:14 2016
+
+###########################################################]

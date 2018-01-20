@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Z585\Desktop\LD2sl\impl1   -part LFXP2_5E  -package TN144C  -grade -6    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Z585\Desktop\LD2sl\impl1\synlog\report\LD2_impl1_premap.xml  -top_level_module  SCHEMAMS1  -oedif  C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1.edi  -conchk_prepass  C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1_cck_prepass.rpt   -autoconstraint  -freq 1.000   C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_prem.srd  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Z585\Desktop\LD2sl\impl1\syntmp\LD2_impl1.plg  -osyn  C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_prem.srd  -prjdir  C:\Users\Z585\Desktop\LD2sl\impl1\  -prjname  proj_1  -log  C:\Users\Z585\Desktop\LD2sl\impl1\synlog\LD2_impl1_premap.srr 
+rc:0 success:1
+C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1.edi|o|1459778035|8285
+C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1_cck_prepass.rpt|o|0|0
+C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_mult.srs|i|1459799573|3723
+C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_prem.srd|o|1459799575|3324
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v|i|1439938774|89401
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v|i|1439938774|40584
+C:\Users\Z585\Desktop\LD2sl\impl1\syntmp\LD2_impl1.plg|o|1459799574|0
+C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_prem.srd|o|1459799575|3324
+C:\Users\Z585\Desktop\LD2sl\impl1\synlog\LD2_impl1_premap.srr|o|1459799575|2329
+C:\lscc\diamond\3.6_x64\synpbase\bin\m_gen_lattice.exe|i|1439939852|17489920
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe|i|1439941484|20782592

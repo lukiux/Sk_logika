@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  SCHEMAMS1  -multisrs  C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_comp.srs  -osyn  C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_mult.srs  -log  C:\Users\Z585\Desktop\LD2sl\impl1\synlog\LD2_impl1_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_comp.srs|i|1459799572|3568
+C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_mult.srs|o|1459799573|3723
+C:\Users\Z585\Desktop\LD2sl\impl1\synlog\LD2_impl1_multi_srs_gen.srr|o|1459799573|466
+C:\lscc\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439945212|3007488
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439945398|3974144

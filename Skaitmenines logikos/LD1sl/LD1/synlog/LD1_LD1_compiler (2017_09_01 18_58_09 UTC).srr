@@ -1,0 +1,61 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\LD1sl\LD1\dekoderis3.vhd":8:7:8:16|Top entity is set to DEKODERIS3.
+File E:\LD1sl\LD1\dekoderis.vhd changed - recompiling
+File C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.vhd changed - recompiling
+File E:\LD1sl\LD1\dekoderis2.vhd changed - recompiling
+File E:\LD1sl\LD1\dekoderis3.vhd changed - recompiling
+VHDL syntax check successful!
+File E:\LD1sl\LD1\dekoderis.vhd changed - recompiling
+File E:\LD1sl\LD1\dekoderis2.vhd changed - recompiling
+File E:\LD1sl\LD1\dekoderis3.vhd changed - recompiling
+@N: CD630 :"E:\LD1sl\LD1\dekoderis3.vhd":8:7:8:16|Synthesizing work.dekoderis3.schematic 
+@W: CD638 :"E:\LD1sl\LD1\dekoderis3.vhd":21:10:21:12|Signal gnd is undriven 
+@W: CD638 :"E:\LD1sl\LD1\dekoderis3.vhd":22:10:22:12|Signal vcc is undriven 
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1033:10:1033:14|Synthesizing work.mux41.syn_black_box 
+Post processing for work.mux41.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":74:10:74:13|Synthesizing work.and3.syn_black_box 
+Post processing for work.and3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1334:10:1334:12|Synthesizing work.or4.syn_black_box 
+Post processing for work.or4.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1315:10:1315:12|Synthesizing work.or2.syn_black_box 
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1324:10:1324:12|Synthesizing work.or3.syn_black_box 
+Post processing for work.or3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box 
+Post processing for work.inv.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1537:10:1537:12|Synthesizing work.vlo.syn_black_box 
+Post processing for work.vlo.syn_black_box
+Post processing for work.dekoderis3.schematic
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 01 11:11:15 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+File E:\LD1sl\LD1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 67MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 01 11:11:16 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Mar 01 11:11:16 2016
+
+###########################################################]

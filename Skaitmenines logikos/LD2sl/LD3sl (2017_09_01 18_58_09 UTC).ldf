@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="LD3sl" device="LFXP2-5E-6TN144C" default_implementation="LD3">
+    <Options/>
+    <Implementation title="LD3" dir="LD3" description="LD3" synthesis="synplify" default_strategy="Strategy1">
+        <Options/>
+        <Source name="../LD2sl/SchemaUNI.sch" type="Schematic" type_short="Schematic">
+            <Options/>
+        </Source>
+        <Source name="../LD2sl/LD3sl.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="LD3sl1.sty"/>
+</BaliProject>

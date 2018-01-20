@@ -1,0 +1,9 @@
+#Start recording tcl command: 4/4/2016 19:52:15
+#Project Location: C:/Users/Z585/Desktop/LD2sl; Project name: LD2
+prj_project open "C:/Users/Z585/Desktop/LD2sl/LD2.ldf"
+prj_run Translate -impl impl1
+prj_src add "C:/Users/Z585/Desktop/LD2sl/testttt/testttt.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD2sl/testD1/testD1.spf" "C:/Users/Z585/Desktop/LD2sl/testttt/testttt.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD2sl/test1/test1.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD2sl/testa/testa.spf"
+#Stop recording: 4/4/2016 23:12:51

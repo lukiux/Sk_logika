@@ -1,0 +1,11 @@
+#Start recording tcl command: 4/27/2016 21:07:35
+#Project Location: C:/Users/Z585/Desktop/LD4sl; Project name: LD4
+prj_project open "C:/Users/Z585/Desktop/LD4sl/LD4.ldf"
+prj_run Translate -impl LD4 -forceAll
+prj_src add "C:/Users/Z585/Desktop/LD4sl/testasmsk/testasmsk.spf"
+prj_run Translate -impl LD4 -forceAll
+prj_run Translate -impl LD4 -forceAll
+prj_run Translate -impl LD4 -forceAll
+prj_run Translate -impl LD4 -forceAll
+prj_run Translate -impl LD4 -forceAll
+#Stop recording: 4/28/2016 00:32:19

@@ -1,0 +1,45 @@
+timestamp=1456788642999
+
+[~A]
+ModifyID=4
+Version=73
+
+[dekoderis]
+A/schematic=A/SCHEMATIC 21|./../../LD1/dekoderis.vhd|19|1*12234
+I=0*624
+I/schematic=I/SCHEMATIC 0*8405
+M=11|0|vc6|1456788602301|./../../LD1/dekoderis.vhd|0*198*0x8276c262eca35b91775343598f16f2927f5f3308|0*538*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1456788642700|./../../LD1/dekoderis.vhd|0*3353*0xfa53753dfe8004ac98c0470007813f080f986412|0*5385*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../LD1/dekoderis.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|1f4a84f32ecee56ac00fa9f6a78778ec37e0151b58bbacc36c1ea573a3c92d5a49c7bda899dac7bdc25ceff2fbd0d233
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d747741849a59d306f1efca78625af0a16
+
+[dekoderis_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/dekoderis_TB.vhd|11|1*17264
+BinI32/tb_architecture=3*0
+I=0*6365
+I/tb_architecture=I/TB_ARCHITECTURE 0*8840
+M=11|0|vc6|1456788637612|./../src/TestBench/dekoderis_TB.vhd|0*6049*0x7670be7b6ffe435529bec5246106de97e0aac122|0*6266*0x5eebbfaf24833dd780412b1f91e05209
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1456788642962|./../src/TestBench/dekoderis_TB.vhd|0*6531*0xa3a41ea6e8b09e970865ee572132fd594fd1b42e|0*7521*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/dekoderis_TB.vhd|8
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|72b69d40d54e9a58843e017c68d3e89d07b6eeb49358b31810375d4459fe7169d94725f253bf180e8fac276509dbce3a
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beaa48210f0d1cecddb7e5cbee2da6050bf
+
+[testbench_for_dekoderis]
+Configures=dekoderis_tb.TB_ARCHITECTURE
+E=1*18985
+I=0*8296
+M=2|0|vc6|1456788642965|./../src/TestBench/dekoderis_TB.vhd|0*7877*0x13e5f74daee60756394aaa39e00bdbe930ad27d9|0*8171*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/dekoderis_TB.vhd|96
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e52ae8f4b214dbc72da3dcb60d63162a6826527262ddaa47cb266f3a3c4d9b973aa313f01ddb0a8bcbe7826c3bfcb38c89
+
+[~MFT]
+0=2|0work.mgf|8840|3239
+1=4|1work.mgf|18985|12234
+3=2|3work.mgf|0|0
+
+[~U]
+dekoderis=DEKODERIS 11|0*0|
+dekoderis_tb=11|0*5919|
+testbench_for_dekoderis=TESTBENCH_FOR_dekoderis 2||
+

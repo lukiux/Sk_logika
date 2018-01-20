@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\Z585\Desktop\LD2sl\impl1   -part LFXP2_5E  -package TN144C  -grade -6    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\Z585\Desktop\LD2sl\impl1\synlog\report\LD2_impl1_fpga_mapper.xml  -top_level_module  SCHEMAMS1  -flow mapping  -multisrs  -oedif  C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1.edi   -autoconstraint  -freq 1.000   C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_prem.srd  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\Z585\Desktop\LD2sl\impl1\syntmp\LD2_impl1.plg  -osyn  C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1.srm  -prjdir  C:\Users\Z585\Desktop\LD2sl\impl1\  -prjname  proj_1  -log  C:\Users\Z585\Desktop\LD2sl\impl1\synlog\LD2_impl1_fpga_mapper.srr 
+rc:1 success:1
+C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1.edi|o|1459799577|8290
+C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_prem.srd|i|1459799575|3324
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v|i|1439938774|89401
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v|i|1439938774|40584
+C:\Users\Z585\Desktop\LD2sl\impl1\syntmp\LD2_impl1.plg|o|1459799578|595
+C:\Users\Z585\Desktop\LD2sl\impl1\LD2_impl1.srm|o|1459799577|5000
+C:\Users\Z585\Desktop\LD2sl\impl1\synlog\LD2_impl1_fpga_mapper.srr|o|1459799578|12193
+C:\lscc\diamond\3.6_x64\synpbase\bin\m_gen_lattice.exe|i|1439939852|17489920
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe|i|1439941484|20782592

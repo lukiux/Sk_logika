@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LD2sl\testttt\library.cfg"  -j "C:\Users\Z585\Desktop\LD2sl\testttt\projlib.cfg"  -d "C:\Users\Z585\Desktop\LD2sl\testttt\compile"   -work work  -O3 -e 100 -2002 "C:/Users/Z585/Desktop/LD2sl/testttt/src/TestBench/schemams1_TB.vhd"

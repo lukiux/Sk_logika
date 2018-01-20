@@ -1,0 +1,5 @@
+2
+~E 1 "./../../LD4/SchemaM1.vhd" 8 SCHEMAM1
+~A 1 "./../../LD4/SchemaM1.vhd" 24 SCHEMATIC
+~E 1 "./../../LD4/SchemaMsk.vhd" 8 SCHEMAMSK
+~A 1 "./../../LD4/SchemaMsk.vhd" 24 SCHEMATIC

@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LDtrecias\TESTAS1\library.cfg"  -j "C:\Users\Z585\Desktop\LDtrecias\TESTAS1\projlib.cfg"  -d "C:\Users\Z585\Desktop\LDtrecias\TESTAS1\compile"   -work work  -dbg -e 100 "C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaPostumis.vhd"

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  SCHEMAMSKPLIS  -multisrs  C:\Users\Z585\Desktop\LD4sl\LD4\synwork\LD4_LD4_comp.srs  -osyn  C:\Users\Z585\Desktop\LD4sl\LD4\synwork\LD4_LD4_mult.srs  -log  C:\Users\Z585\Desktop\LD4sl\LD4\synlog\LD4_LD4_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Z585\Desktop\LD4sl\LD4\synwork\LD4_LD4_comp.srs|i|1462784515|6143
+C:\Users\Z585\Desktop\LD4sl\LD4\synwork\LD4_LD4_mult.srs|o|1462784517|4249
+C:\Users\Z585\Desktop\LD4sl\LD4\synlog\LD4_LD4_multi_srs_gen.srr|o|1462784517|462
+C:\lscc\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439945212|3007488
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439945398|3974144

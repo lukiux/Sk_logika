@@ -1,0 +1,5 @@
+2
+~E 1 "./../../impl1/schemaMS.vhd" 8 SCHEMAMS
+~A 1 "./../../impl1/schemaMS.vhd" 19 SCHEMATIC
+~E 1 "./../../impl1/schemaSR.vhd" 8 SCHEMASR
+~A 1 "./../../impl1/schemaSR.vhd" 19 SCHEMATIC

@@ -1,0 +1,8 @@
+4
+~E 1 "./../../LD3/SchemaPostumis.vhd" 8 SCHEMAPOSTUMIS
+~A 1 "./../../LD3/SchemaPostumis.vhd" 32 SCHEMATIC
+~E 1 "./../src/TestBench/schemapostumis_TB.vhd" 8 schemapostumis_tb
+~A 1 "./../src/TestBench/schemapostumis_TB.vhd" 11 TB_ARCHITECTURE
+~E 1 "./../../LD3/SchemaUNI.vhd" 8 SCHEMAUNI
+~A 1 "./../../LD3/SchemaUNI.vhd" 34 SCHEMATIC
+~C 1 "./../src/TestBench/schemapostumis_TB.vhd" 114 testbench_for_schemapostumis

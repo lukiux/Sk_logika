@@ -1,0 +1,4 @@
+i<>.\..\LD1\dekoderis.vhd
+i<>.\..\LD1\dekoderis2.vhd
+i<>.\..\LD1\dekoderis3.vhd
+i<>.\src\TestBench\dekoderis_TB.vhd

@@ -1,0 +1,20 @@
+[COMPILESTATUS|.\..\LD3\SchemaUNI.vhd]
+FileTimeLow=30513550
+Status=Modified
+[COMPILESTATUS|.\..\LD3\SchemaPostumis.vhd]
+FileTimeLow=30513550
+Status=Modified
+[COMPILESTATUS|.\..\LD3\SchemaPLIS.vhd]
+FileTimeLow=30513550
+Status=Modified
+[COMPILESTATUS|.\src\TestBench\schemapostumis_TB.vhd]
+FileTimeLow=30513546
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\schemapostumis_TB_runtest.do]
+FileTimeLow=30513546
+Status=Modified
+[COMPILESTATUS|.\..\tesss.awc]
+FileTimeLow=30513571
+Status=Modified
+[Gui config]
+RunFor=170 ns

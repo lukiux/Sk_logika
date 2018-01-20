@@ -1,0 +1,69 @@
+timestamp=1462784570793
+
+[~A]
+ModifyID=9
+Version=73
+
+[schemam1]
+A/schematic=A/SCHEMATIC 21|./../../LD4/SchemaM1.vhd|24|1*7652
+BinI32/schematic=3*393
+I=0*5237
+I/schematic=I/SCHEMATIC 0*8604
+M=11|0|vc6|1462781916632|./../../LD4/SchemaM1.vhd|0*4720*0xe1ad7fe57e6d6d14f94246caeeee0254aa11ef59|0*5153*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1462781916634|./../../LD4/SchemaM1.vhd|0*5399*0x1f292ec0551d821ade623c197b62decffd06f0bd|0*8507*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../LD4/SchemaM1.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|0bfe960de7058cc27367d7aa7849cdddbf89b22cd5f589fd26d5e14ab472f13f20558e1fd736d321062a1a5b470f2811
+Version/schematic=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d75679bc9ce367a2c9455af8877d019a4e
+
+[schemamsk]
+A/schematic=A/SCHEMATIC 21|./../../LD4/SchemaMsk.vhd|24|1*38227
+BinI32/schematic=3*1910
+I=0*741
+I/schematic=I/SCHEMATIC 0*19540
+M=11|0|vc6|1462781916084|./../../LD4/SchemaMsk.vhd|0*214*0xf957ecc9c5250e1a867bc958d476b69b683c676a|0*655*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1462784570581|./../../LD4/SchemaMsk.vhd|0*16481*0x63dd471b61e3c697d7eeb6e48a7f7c08909c11cf|0*19441*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../LD4/SchemaMsk.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|cfc57a4d226e5f3949d7230a732cdeb5486e58ba119ad2ce997f4e6f54a40fddabd9dc0122f436b3e71705ad5e00e126
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7d10df90b51381ad8a00528027e3b06c2
+
+[schemamsk2]
+A/schematic=A/SCHEMATIC 21|./../../LD4/SchemaMSK2.vhd|22|1*45875
+BinI32/schematic=3*2194
+I=0*9858
+I/schematic=I/SCHEMATIC 0*20085
+M=11|0|vc6|1462781917218|./../../LD4/SchemaMSK2.vhd|0*9359*0xb74e86b5d582ab5a2a3160b36743d84eec77313e|0*9770*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1462784570682|./../../LD4/SchemaMSK2.vhd|0*11731*0xcd926de7e8cb0cd2c495c194ec33d09b7d0954e2|0*12953*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../LD4/SchemaMSK2.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|72b0b4a283bbaf172882ee58c7a1e2448fd50386f932bb27033715a5b232e5604047c38960b0997ff4c1d4319876aaf3
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d745fb4d4ce73c58aa5219e75d68f487ed
+
+[schemamsk2_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/schemamsk2_TB.vhd|11|1*27928
+BinI32/tb_architecture=3*1536
+I=0*13894
+I/tb_architecture=I/TB_ARCHITECTURE 0*16241
+M=11|0|vc6|1462781933659|./../src/TestBench/schemamsk2_TB.vhd|0*13572*0xa70b31b71f25eeafe18e6ef2ffee756ffdf49712|0*13793*0x5eebbfaf24833dd780412b1f91e05209
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1462783659678|./../src/TestBench/schemamsk2_TB.vhd|0*14061*0xe96a40689c80c138c4a8c926692d5227962ba9a5|0*14954*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/schemamsk2_TB.vhd|8
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|70125ffdc643ca365764a427dd78c0e836c39b5b8a978904364cbe21f14fe6e76c9f5261b441b7a1a63ce3cf04e3443d
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea60cf9b491315c1b0799b2a94038d3462
+
+[testbench_for_schemamsk2]
+Configures=schemamsk2_tb.TB_ARCHITECTURE
+E=1*29924
+I=0*15744
+M=2|0|vc6|1462783659690|./../src/TestBench/schemamsk2_TB.vhd|0*15314*0x72b225b3959bd77326507aaa8bcbee446c8d404c|0*15616*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/schemamsk2_TB.vhd|72
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e517bf56213230e828df87125d4004093917a6136c0bcc7ca9dffcb0bb4c4b38da9f5759771223af44a014eaefd83e8fc8
+
+[~MFT]
+0=4|0work.mgf|20085|6325
+1=4|1work.mgf|45875|27507
+3=4|3work.mgf|2194|1145
+
+[~U]
+schemam1=SCHEMAM1 11|0*4508|
+schemamsk=SCHEMAMSK 11|0*0|
+schemamsk2=SCHEMAMSK2 11|0*9147|
+schemamsk2_tb=11|0*13440|
+testbench_for_schemamsk2=TESTBENCH_FOR_schemamsk2 2||

@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd" 
+MESSAGE "Compile Entity "SCHEMAMSK"" 
+MESSAGE "Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK"" 
+MESSAGE "File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd" 
+MESSAGE "Compile Entity "SCHEMAMSK2"" 
+MESSAGE "Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK2"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

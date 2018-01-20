@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LD4sl\testasmsk\library.cfg"  -j "C:\Users\Z585\Desktop\LD4sl\testasmsk\projlib.cfg"  -d "C:\Users\Z585\Desktop\LD4sl\testasmsk\compile"   -work work  -dbg -e 100 "C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd"

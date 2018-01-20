@@ -1,0 +1,24 @@
+timestamp=1462122256619
+
+[~A]
+ModifyID=1
+Version=73
+
+[schemam]
+A/schematic=A/SCHEMATIC 21|./../../LD4/SchemaM.vhd|24|1*0
+BinI32/schematic=3*0
+I=0*720
+I/schematic=I/SCHEMATIC 0*3726
+M=11|0|vc6|1462122256487|./../../LD4/SchemaM.vhd|0*209*0x24f03d221bea7b348e893f0eba854e443fe05af4|0*638*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1462122256503|./../../LD4/SchemaM.vhd|0*881*0x0406da9b170ba7290d2cfaa20297da8bed1207ab|0*3631*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../LD4/SchemaM.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|3bd5964f8881e7cbd980be86d3dd8f2b26527262ddaa47cb266f3a3c4d9b973a175c463e3271874af9f29c92085b327c
+Version/schematic=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7dcda0da440e8d3ee3bf0e9df405c2c30
+
+[~MFT]
+0=7|0work.mgf|3726|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+schemam=SCHEMAM 11|0*0|

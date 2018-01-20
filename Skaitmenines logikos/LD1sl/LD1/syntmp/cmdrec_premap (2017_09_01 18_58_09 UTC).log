@@ -1,0 +1,13 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  E:\LD1sl\LD1   -part LFXP2_5E  -package TN144C  -grade -6    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile E:\LD1sl\LD1\synlog\report\LD1_LD1_premap.xml  -top_level_module  DEKODERIS3  -oedif  E:\LD1sl\LD1\LD1_LD1.edi  -conchk_prepass  E:\LD1sl\LD1\LD1_LD1_cck_prepass.rpt   -autoconstraint  -freq 1.000   E:\LD1sl\LD1\synwork\LD1_LD1_mult.srs  -flow prepass  -gcc_prepass  -osrd  E:\LD1sl\LD1\synwork\LD1_LD1_prem.srd  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v  -devicelib  C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  E:\LD1sl\LD1\syntmp\LD1_LD1.plg  -osyn  E:\LD1sl\LD1\synwork\LD1_LD1_prem.srd  -prjdir  E:\LD1sl\LD1\  -prjname  proj_1  -log  E:\LD1sl\LD1\synlog\LD1_LD1_premap.srr 
+rc:0 success:1
+E:\LD1sl\LD1\LD1_LD1.edi|o|1456821387|10379
+E:\LD1sl\LD1\LD1_LD1_cck_prepass.rpt|o|0|0
+E:\LD1sl\LD1\synwork\LD1_LD1_mult.srs|i|1456823478|4324
+E:\LD1sl\LD1\synwork\LD1_LD1_prem.srd|o|1456823479|3731
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v|i|1439935174|89401
+C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\pmi_def.v|i|1439935174|40584
+E:\LD1sl\LD1\syntmp\LD1_LD1.plg|o|1456823479|0
+E:\LD1sl\LD1\synwork\LD1_LD1_prem.srd|o|1456823479|3731
+E:\LD1sl\LD1\synlog\LD1_LD1_premap.srr|o|1456823479|2284
+C:\lscc\diamond\3.6_x64\synpbase\bin\m_gen_lattice.exe|i|1439936252|17489920
+C:\lscc\diamond\3.6_x64\synpbase\bin64\m_gen_lattice.exe|i|1439937884|20782592

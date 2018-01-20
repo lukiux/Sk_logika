@@ -1,0 +1,10 @@
+#Start recording tcl command: 4/9/2016 00:49:21
+#Project Location: C:/Users/Z585/Desktop/LD3sl; Project name: LD3SL
+prj_project new -name "LD3SL" -impl "LD3" -dev LFXP2-5E-6TN144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Z585/Desktop/LD3SL/SchemaUNI.sch"
+prj_run Translate -impl LD3
+prj_src add "C:/Users/Z585/Desktop/LD3SL/TEstavimas/TEstavimas.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD3SL/TEstavimas/TEstavimas.spf"
+prj_src add "C:/Users/Z585/Desktop/LD3sl/Test/Test.spf"
+#Stop recording: 4/9/2016 01:01:20

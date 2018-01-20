@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+testa=testa.adf
+[Settings]
+Active=testa
+[Expand]
+testa=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

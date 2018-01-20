@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+sim_SchemaUNI=sim_SchemaUNI.adf
+[Settings]
+Active=sim_SchemaUNI
+[Expand]
+sim_schemauni=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

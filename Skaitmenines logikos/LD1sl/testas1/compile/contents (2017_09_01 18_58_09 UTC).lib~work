@@ -1,0 +1,7 @@
+3
+~E 1 "./../../LD1/dekoderis.vhd" 8 DEKODERIS
+~A 1 "./../../LD1/dekoderis.vhd" 19 SCHEMATIC
+~E 1 "./../../LD1/dekoderis2.vhd" 8 DEKODERIS2
+~A 1 "./../../LD1/dekoderis2.vhd" 19 SCHEMATIC
+~E 1 "./../../LD1/dekoderis3.vhd" 8 DEKODERIS3
+~A 1 "./../../LD1/dekoderis3.vhd" 19 SCHEMATIC

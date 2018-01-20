@@ -1,0 +1,6 @@
+5
+~E 1 "./../../LD3/SchemaUNI.vhd" 8 SCHEMAUNI
+~A 1 "./../../LD3/SchemaUNI.vhd" 34 SCHEMATIC
+~E 1 "./../src/TestBench/schemauni_TB.vhd" 8 schemauni_tb
+~A 1 "./../src/TestBench/schemauni_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/schemauni_TB.vhd" 134 testbench_for_schemauni

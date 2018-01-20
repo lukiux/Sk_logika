@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LD1sl\Klasika2\library.cfg"  -j "C:\Users\Z585\Desktop\LD1sl\Klasika2\projlib.cfg"  -d "C:\Users\Z585\Desktop\LD1sl\Klasika2\compile"   -work work  -O3 -e 100 -2002 "C:/Users/Z585/Desktop/LD1sl/Klasika2/src/TestBench/dekoderis_TB.vhd"

@@ -1,0 +1,71 @@
+# Design Explorer: Shortcut to "C:\Users\Z585\Desktop\LD3sl\Test1\Test1.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile C:/Users/Z585/Desktop/LD3sl/LD3/SchemaUNI.v
+# Adding file C:\Users\Z585\Desktop\LD3sl\LD3\SchemaUNI.v ... Done
+addfile C:/Users/Z585/Desktop/LD3sl/LD3/lo.v
+# Adding file C:\Users\Z585\Desktop\LD3sl\LD3\lo.v ... Done
+vlib C:/Users/Z585/Desktop/LD3sl/Test1/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/Users/Z585/Desktop/LD3sl/LD3/SchemaUNI.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: SchemaUNI.
+# $root top modules: SchemaUNI.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+vlog -dbg -work work C:/Users/Z585/Desktop/LD3sl/LD3/lo.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: lo.
+# $root top modules: SchemaUNI lo.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module lo
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'lo' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r lo -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'lo' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0036 Unresolved hierarchical reference to "PUR_INST.PURNET" from module "lo.I9" (module not found).
+# ELAB2: Last instance before error: /lo/I9
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+#  Simulation has been stopped
+add wave *
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/Z585/Desktop/LD3sl/Test1/Test1.ado" line 28)
+#     invoked from within
+# "source {C:/Users/Z585/Desktop/LD3sl/Test1/Test1.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""

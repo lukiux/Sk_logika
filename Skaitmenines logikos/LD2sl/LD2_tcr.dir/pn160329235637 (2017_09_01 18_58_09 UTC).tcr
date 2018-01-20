@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/29/2016 21:13:03
+#Project Location: C:/Users/Z585/Desktop/LD2sl; Project name: LD2
+prj_project open "C:/Users/Z585/Desktop/LD2sl/LD2.ldf"
+prj_run Synthesis -impl impl1
+prj_run Translate -impl impl1
+#Stop recording: 3/29/2016 23:56:37

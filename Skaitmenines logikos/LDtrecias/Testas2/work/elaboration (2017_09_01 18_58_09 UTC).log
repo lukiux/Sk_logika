@@ -1,0 +1,41 @@
+Active-HDL 10.2.3312.5682  2016-04-17 01:06:06
+
+Elaboration top modules:
+Architecture                  SCHEMATIC(SCHEMAUNI)
+
+
+--------------------------------------------------------------------------------------------
+Entity    | Architecture | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------
+SCHEMAUNI | SCHEMATIC    | work    |      | 10.2.3312.5682  (Windows) | -dbg
+and2      | v            | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+fd1s3ax   | v            | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+mux41     | v            | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+VHDL Package             | Library | Info | Compiler Version          | Compilation Options
+--------------------------------------------------------------------------------------------
+standard                 | std     |      |                           | <unavailable>
+TEXTIO                   | std     |      | 10.2.3312.5682  (Windows) |  -2008
+std_logic_1164           | ieee    |      | 10.2.3312.5682  (Windows) |  -2008
+components               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+VITAL_Timing             | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+VITAL_Primitives         | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+global                   | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+Library                  | Comment
+--------------------------------------------------------------------------------------------
+ieee                     | Standard IEEE packages library
+std                      | Standard VHDL library
+work                     | None
+xp2                      | LATTICE Diamond 3.6, XP2 VHDL LIBRARY
+--------------------------------------------------------------------------------------------
+
+
+Simulation Options: vsim +access +r SCHEMAUNI -PL pmi_work -L ovi_xp2
+
+
+The performance of simulation is reduced. Version Lattice Edition

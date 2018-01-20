@@ -1,0 +1,399 @@
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd
+# Adding file C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD4sl/LD4/SchemaM1.vhd
+# Adding file C:\Users\Z585\Desktop\LD4sl\LD4\SchemaM1.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMSK2.vhd
+# Adding file C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd ... Done
+vlib C:/Users/Z585/Desktop/LD4sl/Testas/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd
+# Compile Entity "SCHEMAMSK"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD4sl/LD4/SchemaM1.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaM1.vhd
+# Compile Entity "SCHEMAM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAM1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMSK2.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd
+# Compile Entity "SCHEMAMSK2"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+entity SCHEMAMSK
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+vsim +access +r SCHEMAMSK -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6989 kB (elbread=1024 elab2=5815 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  11:18 AM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: SCHEMAMSK (SCHEMATIC)
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+add wave *
+# 39 signal(s) traced.
+SetActiveLib -work
+comp -include "C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd
+# Compile Entity "SCHEMAMSK2"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\schemamsk2_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD4sl\TESTAS\src\TestBench\schemamsk2_TB.vhd
+# Compile Entity "schemamsk2_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemamsk2_tb"
+# Compile Configuration "TESTBENCH_FOR_schemamsk2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_schemamsk2 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6996 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  11:18 AM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+wave 
+
+wave -noreg R 
+wave -noreg C  
+wave -noreg Q23 
+wave -noreg Q22
+wave -noreg Q21
+wave -noreg Q20 
+wave -noreg Q13
+wave -noreg Q12
+wave -noreg Q11
+wave -noreg Q10
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\schemamsk2_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_schemamsk2 
+# 10 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6996 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  11:21 AM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# WAVEFORM: 8 signal(s) inserted to virtual bus.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+SetActiveLib -work
+comp -include "C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd
+# Compile Entity "SCHEMAMSK2"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\schemamsk2_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD4sl\TESTAS\src\TestBench\schemamsk2_TB.vhd
+# Compile Entity "schemamsk2_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemamsk2_tb"
+# Compile Configuration "TESTBENCH_FOR_schemamsk2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_schemamsk2 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+acom -O3 -work work -2002  $dsn/../LD4/SchemaMsk.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd
+# Compile Entity "SCHEMAMSK"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6995 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  11:47 AM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+wave 
+
+wave -noreg R 
+wave -noreg C  
+wave -noreg Q23 
+wave -noreg Q22
+wave -noreg Q21
+wave -noreg Q20 
+wave -noreg Q13
+wave -noreg Q12
+wave -noreg Q11
+wave -noreg Q10
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\schemamsk2_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_schemamsk2 
+# 10 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6995 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  11:56 AM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+run 500 ns
+# KERNEL: stopped at time: 1 us
+# 1 signal(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6995 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  11:57 AM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+run 500 ns
+# KERNEL: stopped at time: 1 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6995 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  12:02 PM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+run 500 ns
+acom -O3 -work work -2002  $dsn/../LD4/SchemaMsk.vhd $dsn/../LD4/SchemaMSK2.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd
+# Compile Entity "SCHEMAMSK"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK"
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd
+# Compile Entity "SCHEMAMSK2"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6995 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  12:02 PM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6995 kB (elbread=1024 elab2=5820 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD4sl\TESTAS\src\wave.asdb
+#  12:05 PM, Monday, May 9, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemamsk2
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM1.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/TESTAS/src/wave.asdb'.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+# Adding file C:\Users\Z585\Desktop\LD4sl\TestM1.awc ... Done
+# Adding file C:\Users\Z585\Desktop\LD4sl\TestM1.awc ... Done
+#  Simulation has been stopped

@@ -1,0 +1,11 @@
+#Start recording tcl command: 2/16/2016 12:42:46
+#Project Location: C:/Users/Z585/Desktop/LD1; Project name: LD1
+prj_project new -name "LD1" -impl "LD1" -dev LFXP2-5E-6TN144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Z585/Desktop/LD1/dekoderis.sch"
+prj_src add "C:/Users/Z585/Desktop/LD1/dekoderis2.sch"
+prj_src add "C:/Users/Z585/Desktop/LD1/dekoderis3.sch"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src add "C:/Users/Z585/Desktop/LD1/testas_dekoderis/testas_dekoderis.spf"
+#Stop recording: 2/16/2016 23:09:45

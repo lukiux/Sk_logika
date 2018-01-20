@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LDtrecias\Test\library.cfg"  -j "C:\Users\Z585\Desktop\LDtrecias\Test\projlib.cfg"  -d "C:\Users\Z585\Desktop\LDtrecias\Test\compile"   -work work  -O3 -e 100 -2002 "C:/Users/Z585/Desktop/LDtrecias/Test/src/TestBench/schemapostumis_TB.vhd"

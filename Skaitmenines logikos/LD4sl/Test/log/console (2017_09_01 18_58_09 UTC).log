@@ -1,0 +1,35 @@
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/Test/src/wave.asdb'.
+# Warning: Cannot display signals from waveform file (AWC). The file does not match associated simulation database (ASDB).
+# Warning: Open 'C:/Users/Z585/Desktop/LD4sl/Test/src/wave.asdb' file to view simulation results.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/Z585/Desktop/LD4sl/LD4/SchemaM.vhd
+# Adding file C:\Users\Z585\Desktop\LD4sl\LD4\SchemaM.vhd ... Done
+vlib C:/Users/Z585/Desktop/LD4sl/Test/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LD4sl/LD4/SchemaM.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaM.vhd
+# Compile Entity "SCHEMAM"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAM"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+entity SCHEMAM
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SCHEMAM -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.SCHEMAM'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: vsim: cannot select specified top-level
+add wave *
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/TestM.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/Test/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /* not found in C:/Users/Z585/Desktop/LD4sl/Test/src/wave.asdb.

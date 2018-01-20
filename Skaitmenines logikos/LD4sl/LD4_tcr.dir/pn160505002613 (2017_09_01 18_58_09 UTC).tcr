@@ -1,0 +1,6 @@
+#Start recording tcl command: 5/4/2016 10:25:08
+#Project Location: C:/Users/Z585/Desktop/LD4sl; Project name: LD4
+prj_project open "C:/Users/Z585/Desktop/LD4sl/LD4.ldf"
+prj_run Translate -impl LD4 -forceAll
+prj_run Translate -impl LD4 -forceAll
+#Stop recording: 5/5/2016 00:26:13

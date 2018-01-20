@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v":147:7:147:10|Synthesizing module AND2
+@N: CG364 :"C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v":424:7:424:13|Synthesizing module FD1S3AX
+@N: CG364 :"C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.v":885:7:885:11|Synthesizing module MUX41
+@N: CG364 :"C:\Users\Z585\Desktop\LD3sl\LD3\SchemaUNI.v":3:7:3:15|Synthesizing module SchemaUNI
+@N|Running in 64-bit mode
+

@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LDtrecias\sim_SchemaUNI\library.cfg"  -j "C:\Users\Z585\Desktop\LDtrecias\sim_SchemaUNI\projlib.cfg"  -d "C:\Users\Z585\Desktop\LDtrecias\sim_SchemaUNI\compile"   -work work  -dbg -e 100 "C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaUNI.vhd"

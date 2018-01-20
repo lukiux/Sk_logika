@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+testas_dekoderis=testas_dekoderis.adf
+[Settings]
+Active=testas_dekoderis
+[Expand]
+testas_dekoderis=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

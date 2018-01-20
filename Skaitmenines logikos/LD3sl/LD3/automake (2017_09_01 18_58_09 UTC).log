@@ -1,0 +1,4 @@
+
+sch2vlog -FPGA -i C:/Users/Z585/Desktop/LD2sl/SchemaUNI.sch -o C:/Users/Z585/Desktop/LD3sl/LD3/SchemaUNI.v -gui -msgset C:/Users/Z585/Desktop/LD3sl/promote.xml
+
+sch2vlog -FPGA -i C:/Users/Z585/Desktop/LD3sl/lo.sch -o C:/Users/Z585/Desktop/LD3sl/LD3/lo.v -gui -msgset C:/Users/Z585/Desktop/LD3sl/promote.xml

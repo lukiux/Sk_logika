@@ -1,0 +1,20 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Wed Apr 20 16:30:50 2016 *
+NOTE DESIGN NAME: SCHEMAPLIS *
+NOTE DEVICE NAME: LFXP2-5E-6TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS Q4 : 90 : out *
+NOTE PINS A0 : 91 : in *
+NOTE PINS Q1 : 88 : out *
+NOTE PINS Q3 : 99 : out *
+NOTE PINS Q2 : 101 : out *
+NOTE PINS Q0 : 96 : out *
+NOTE PINS Q5 : 93 : out *
+NOTE PINS Q6 : 89 : out *
+NOTE PINS Q7 : 94 : out *
+NOTE PINS clock : 87 : in *
+NOTE PINS reset : 98 : in *
+NOTE PINS A1 : 92 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: off *

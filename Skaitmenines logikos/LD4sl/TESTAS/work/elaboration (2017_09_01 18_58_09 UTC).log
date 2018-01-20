@@ -1,0 +1,48 @@
+Active-HDL 10.2.3312.5682  2016-05-09 12:05:54
+
+Elaboration top modules:
+VHDL Configuration            testbench_for_schemamsk2
+
+
+---------------------------------------------------------------------------------------------------
+Entity        | Architecture    | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+schemamsk2_tb | tb_architecture | work    |      | 10.2.3312.5682  (Windows) | -O3
+SCHEMAMSK2    | schematic       | work    |      | 10.2.3312.5682  (Windows) | -O3
+SCHEMAMSK     | schematic       | work    |      | 10.2.3312.5682  (Windows) | -O3
+vlo           | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+or2           | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+inv           | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+or3           | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+and3          | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+and2          | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+mux21         | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+fd1s3dx       | v               | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Configuration              | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+testbench_for_schemamsk2        | work    |      | 10.2.3312.5682  (Windows) | -O3
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Package                    | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------
+standard                        | std     |      |                           | <unavailable>
+TEXTIO                          | std     |      | 10.2.3312.5682  (Windows) |  -2008
+std_logic_1164                  | ieee    |      | 10.2.3312.5682  (Windows) |  -2008
+components                      | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+VITAL_Timing                    | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+VITAL_Primitives                | ieee    |      | 10.2.3312.5682  (Windows) | <unavailable>
+global                          | xp2     |      | 10.2.3312.5682  (Windows) | -vendor lattice
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                         | Comment
+---------------------------------------------------------------------------------------------------
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+work                            | None
+xp2                             | LATTICE Diamond 3.6, XP2 VHDL LIBRARY
+---------------------------------------------------------------------------------------------------

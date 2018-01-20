@@ -1,0 +1,10 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe  -osyn  C:\Users\Z585\Desktop\LD4sl\LD4\synwork\LD4_LD4_comp.srs  -top  SCHEMAMSKPLIS  -hdllog  C:\Users\Z585\Desktop\LD4sl\LD4\synlog\LD4_LD4_compiler.srr  -encrypt  -mp  1  -vhdl  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Z585\Desktop\LD4sl\LD4\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd -lib work C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd -lib work C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMskPLIS.vhd 
+rc:0 success:1
+C:\Users\Z585\Desktop\LD4sl\LD4\synwork\LD4_LD4_comp.srs|o|1462784515|6143
+C:\Users\Z585\Desktop\LD4sl\LD4\synlog\LD4_LD4_compiler.srr|o|1462784515|4907
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd|i|1376992808|146261
+C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd|i|1462784512|4769
+C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMSK2.vhd|i|1462784512|2398
+C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMskPLIS.vhd|i|1462784512|3444
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_hdl.exe|i|1439945122|1295360
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_hdl.exe|i|1439945310|1896960

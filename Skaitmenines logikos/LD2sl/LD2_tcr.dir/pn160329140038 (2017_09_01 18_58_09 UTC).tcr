@@ -1,0 +1,6 @@
+#Start recording tcl command: 3/29/2016 12:18:45
+#Project Location: C:/Users/Z585/Desktop/LD2sl; Project name: LD2
+prj_project open "C:/Users/Z585/Desktop/LD2sl/LD2.ldf"
+prj_src add "C:/Users/Z585/Desktop/LD2sl/schemaMS1.sch"
+prj_src remove "C:/Users/Z585/Desktop/LD2sl/schemaMS.sch"
+#Stop recording: 3/29/2016 14:00:38

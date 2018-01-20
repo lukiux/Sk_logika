@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+testasmsk=testasmsk.adf
+[Settings]
+Active=testasmsk
+[Expand]
+testasmsk=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

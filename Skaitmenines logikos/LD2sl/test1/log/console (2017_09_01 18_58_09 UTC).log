@@ -1,0 +1,51 @@
+# Waveform file 'C:/Users/Z585/Desktop/LD2sl/test1.awc' connected to 'C:/Users/Z585/Desktop/LD2sl/test1/src/wave.asdb'.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/Z585/Desktop/LD2sl/impl1/schemaSR.vhd
+# Adding file C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD2sl/impl1/schemaMS.vhd
+# Adding file C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd ... Done
+vlib C:/Users/Z585/Desktop/LD2sl/test1/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LD2sl/impl1/schemaSR.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd
+# Compile Entity "SCHEMASR"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMASR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD2sl/impl1/schemaMS.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd
+# Compile Entity "SCHEMAMS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+entity SCHEMASR
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SCHEMASR -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.SCHEMASR'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: vsim: cannot select specified top-level
+add wave *
+# Warning: WAVEFORM: Object matching /* not found in C:/Users/Z585/Desktop/LD2sl/test1/src/wave.asdb.
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/Z585/Desktop/LD2sl/test1/test1.ado" line 28)
+#     invoked from within
+# "source {C:/Users/Z585/Desktop/LD2sl/test1/test1.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""

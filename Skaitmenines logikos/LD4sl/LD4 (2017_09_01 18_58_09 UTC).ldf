@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="LD4" device="LFXP2-5E-6TN144C" default_implementation="LD4">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="LD4" dir="LD4" description="LD4" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SCHEMAMSKPLIS"/>
+        <Source name="SchemaMsk.sch" type="Schematic" type_short="Schematic">
+            <Options/>
+        </Source>
+        <Source name="SchemaMSK2.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMAMSK2"/>
+        </Source>
+        <Source name="SchemaMskPLIS.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMAMSKPLIS"/>
+        </Source>
+        <Source name="LD4.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="LD4/LD4.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="TESTAS/TESTAS.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="LD41.sty"/>
+</BaliProject>

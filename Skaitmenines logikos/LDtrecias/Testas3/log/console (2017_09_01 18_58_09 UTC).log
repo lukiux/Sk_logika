@@ -1,0 +1,131 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaUNI.vhd
+# Adding file C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaUNI.vhd ... Done
+addfile C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaPostumis.vhd
+# Adding file C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPostumis.vhd ... Done
+vlib C:/Users/Z585/Desktop/LDtrecias/Testas3/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaUNI.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaUNI.vhd
+# Compile Entity "SCHEMAUNI"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAUNI"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+vcom -dbg -work work C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaPostumis.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPostumis.vhd
+# Compile Entity "SCHEMAPOSTUMIS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAPOSTUMIS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+entity SCHEMAUNI
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SCHEMAUNI -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6991 kB (elbread=1024 elab2=5816 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LDtrecias\Testas3\src\wave.asdb
+#  12:39 AM, Sunday, April 17, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: SCHEMAUNI (SCHEMATIC)
+add wave *
+# 48 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LDtrecias/Testas3/src/wave.asdb'.
+SetActiveLib -work
+comp -include "C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPostumis.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPostumis.vhd
+# Compile Entity "SCHEMAPOSTUMIS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAPOSTUMIS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\schemapostumis_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LDtrecias\Testas3\src\TestBench\schemapostumis_TB.vhd
+# Compile Entity "schemapostumis_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemapostumis_tb"
+# Compile Configuration "TESTBENCH_FOR_schemapostumis"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_schemapostumis 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6992 kB (elbread=1024 elab2=5818 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LDtrecias\Testas3\src\wave.asdb
+#  12:39 AM, Sunday, April 17, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_schemapostumis
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LDtrecias/Testas3/src/wave.asdb'.
+wave 
+wave -noreg x0
+wave -noreg x1
+wave -noreg x2
+wave -noreg Q0
+wave -noreg Q1
+wave -noreg x3
+wave -noreg Q2
+wave -noreg Q3
+wave -noreg Q4
+wave -noreg x4
+wave -noreg Q5
+wave -noreg Q6
+wave -noreg x5
+wave -noreg Q7
+wave -noreg x6
+wave -noreg x7
+wave -noreg A1
+wave -noreg reset
+wave -noreg A0
+wave -noreg clock
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\schemapostumis_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_schemapostumis 
+# 20 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LDtrecias/Testas3/src/wave.asdb'.
+run 200 ns
+# KERNEL: stopped at time: 200 ns
+#  Simulation has been stopped

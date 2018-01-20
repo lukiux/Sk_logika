@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.6_x64/cae_library/synthesis/vhdl/xp2.vhd" "E:/LD1sl/LD1/dekoderis.vhd" "E:/LD1sl/LD1/dekoderis2.vhd" "E:/LD1sl/LD1/dekoderis3.vhd" 

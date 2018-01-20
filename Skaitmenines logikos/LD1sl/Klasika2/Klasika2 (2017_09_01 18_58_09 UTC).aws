@@ -1,0 +1,14 @@
+[Version]
+Version=10.2
+[Designs]
+Klasika2=Klasika2.adf
+[Settings]
+Active=Klasika2
+[Expand]
+klasika2=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

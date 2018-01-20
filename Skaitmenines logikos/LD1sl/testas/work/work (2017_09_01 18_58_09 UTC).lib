@@ -1,0 +1,67 @@
+timestamp=1456821923407
+
+[~A]
+ModifyID=6
+Version=73
+
+[dekoderis]
+A/schematic=A/SCHEMATIC 21|./../../LD1/dekoderis.vhd|19|1*31410
+I=0*624
+I/schematic=I/SCHEMATIC 0*19941
+M=11|0|vc6|1456821436162|./../../LD1/dekoderis.vhd|0*198*0x8276c262eca35b91775343598f16f2927f5f3308|0*538*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1456821922987|./../../LD1/dekoderis.vhd|0*9917*0xfa53753dfe8004ac98c0470007813f080f986412|0*11949*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../LD1/dekoderis.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|1f4a84f32ecee56ac00fa9f6a78778ec37e0151b58bbacc36c1ea573a3c92d5a3cbcc4f1e985b4b114e5f7ed09a8f476
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d793e1a4ec6e8ed496a72959a1655dc0ff
+
+[dekoderis2]
+A/schematic=A/SCHEMATIC 21|./../../LD1/dekoderis2.vhd|19|1*19656
+I=0*3985
+I/schematic=I/SCHEMATIC 0*14443
+M=11|0|vc6|1456821436349|./../../LD1/dekoderis2.vhd|0*3553*0x8950f8668ccd09ebcc6bd6c920ba26f7e428519f|0*3897*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1456821917873|./../../LD1/dekoderis2.vhd|0*12483*0x43d6deb989ba0918fa63f8cdca96f6eb2595d666|0*14342*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../LD1/dekoderis2.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|51cba2f0f02b543f8ad43e488e5da3beffd18a249e250145acc340365fc080f12f3aa045cb19fe0a3ef933d18406372e
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7d0c4a3e9caddd88b39f27e2ec43a3c9f
+
+[dekoderis3]
+A/schematic=A/SCHEMATIC 21|./../../LD1/dekoderis3.vhd|19|1*24301
+I=0*7071
+I/schematic=I/SCHEMATIC 0*16914
+M=11|0|vc6|1456821436599|./../../LD1/dekoderis3.vhd|0*6639*0xa27d43f4b3e2d71e2c673d953617136b91a7ff86|0*6983*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1456821917907|./../../LD1/dekoderis3.vhd|0*14773*0x11810a8d787c038c8a4d48d775546c4fd9a10e38|0*16813*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../LD1/dekoderis3.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|81a2288e8e47de9758912e50b002f62c2c8fab3cbe0faef14ac3af51d52da25dd35786bf98bcd756f3272e5885781f69
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7a202650a6fa8a2148ce57d2c6d74a067
+
+[dekoderis_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/dekoderis_TB.vhd|11|1*36440
+BinI32/tb_architecture=3*0
+I=0*17901
+I/tb_architecture=I/TB_ARCHITECTURE 0*20376
+M=11|0|vc6|1456821917930|./../src/TestBench/dekoderis_TB.vhd|0*17585*0x7670be7b6ffe435529bec5246106de97e0aac122|0*17802*0x5eebbfaf24833dd780412b1f91e05209
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1456821923372|./../src/TestBench/dekoderis_TB.vhd|0*18067*0x44f3bf2138b3c0e1712c683f279691fc7702a3dc|0*19057*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/dekoderis_TB.vhd|8
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|72b69d40d54e9a58843e017c68d3e89d07b6eeb49358b31810375d4459fe71694d688f929d4dd54ef39443491e28a7d5
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beac843252721e1c47cabe472b5bb84541f
+
+[testbench_for_dekoderis]
+Configures=dekoderis_tb.TB_ARCHITECTURE
+E=1*38161
+I=0*19832
+M=2|0|vc6|1456821923381|./../src/TestBench/dekoderis_TB.vhd|0*19413*0x13e5f74daee60756394aaa39e00bdbe930ad27d9|0*19707*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/dekoderis_TB.vhd|96
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e52ae8f4b214dbc72da3dcb60d63162a6826527262ddaa47cb266f3a3c4d9b973a19cd7bdf72d7cd401f930d22b6054675
+
+[~MFT]
+0=2|0work.mgf|20376|8211
+1=4|1work.mgf|38161|21826
+3=2|3work.mgf|0|0
+
+[~U]
+dekoderis=DEKODERIS 11|0*0|
+dekoderis2=DEKODERIS2 11|0*3353|
+dekoderis3=DEKODERIS3 11|0*6439|
+dekoderis_tb=11|0*17455|
+testbench_for_dekoderis=TESTBENCH_FOR_dekoderis 2||
+

@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LD2sl\test1\library.cfg"  -j "C:\Users\Z585\Desktop\LD2sl\test1\projlib.cfg"  -d "C:\Users\Z585\Desktop\LD2sl\test1\compile"   -work work  -dbg -e 100 "C:/Users/Z585/Desktop/LD2sl/impl1/schemaMS.vhd"

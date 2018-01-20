@@ -1,0 +1,36 @@
+timestamp=1459239703838
+
+[~A]
+ModifyID=2
+Version=73
+
+[schemams]
+A/schematic=A/SCHEMATIC 21|./../../impl1/schemaMS.vhd|19|1*3205
+BinI32/schematic=3*321
+I=0*3102
+I/schematic=I/SCHEMATIC 0*4930
+M=11|0|vc6|1459239703785|./../../impl1/schemaMS.vhd|0*2675*0x7c7c0a1764926fce7db617ff72d7dfdfd829535b|0*3016*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1459239703787|./../../impl1/schemaMS.vhd|0*3264*0xee68767d6c29324285621046a1b10ce69be3b3ef|0*4831*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../impl1/schemaMS.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|5b244a375843257e5f7dd15fa9209659b9aed873503d5a24b94ab5e34825fdf609e047c40ab174c5aadbfd586397e627
+Version/schematic=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7575b488d6f1a1c392a9da7d6ca8d8b9c
+
+[schemasr]
+A/schematic=A/SCHEMATIC 21|./../../impl1/schemaSR.vhd|19|1*0
+BinI32/schematic=3*0
+I=0*627
+I/schematic=I/SCHEMATIC 0*2042
+M=11|0|vc6|1459239703168|./../../impl1/schemaSR.vhd|0*200*0xf0d71439b6827d6a8447bcf38a4f977b722c3208|0*541*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1459239703170|./../../impl1/schemaSR.vhd|0*789*0xcc43c52ab646da1c6dfc3c4145baba0d2f0e1a40|0*1943*0x9f7672f34934e0a5b91b54c4e667d63c
+R=./../../impl1/schemaSR.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|210da2e83fd93179b1fce17867fe2cd50602192bf13219adeebae6c40f906a0583acded9feb2892ee9384303a4295815
+Version/schematic=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d786f5c90d3ecae1f6845a0fc4a79b5edf
+
+[~MFT]
+0=7|0work.mgf|4930|0
+1=1|1work.mgf|3205|0
+3=1|3work.mgf|321|0
+
+[~U]
+schemams=SCHEMAMS 11|0*2475|
+schemasr=SCHEMASR 11|0*0|

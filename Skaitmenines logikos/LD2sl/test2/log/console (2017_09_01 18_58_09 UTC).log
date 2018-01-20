@@ -1,0 +1,164 @@
+# Design Explorer: Shortcut to "C:\Users\Z585\Desktop\LD2sl\test2\test2.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile C:/Users/Z585/Desktop/LD2sl/impl1/schemaSR.vhd
+# Adding file C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD2sl/impl1/schemaMS.vhd
+# Adding file C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd ... Done
+vlib C:/Users/Z585/Desktop/LD2sl/test2/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LD2sl/impl1/schemaSR.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd
+# Compile Entity "SCHEMASR"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMASR"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD2sl/impl1/schemaMS.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd
+# Compile Entity "SCHEMAMS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+entity SCHEMAMS
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+vsim +access +r SCHEMAMS -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.SCHEMAMS'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: vsim: cannot select specified top-level
+add wave *
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/Z585/Desktop/LD2sl/test2/test2.ado" line 28)
+#     invoked from within
+# "source {C:/Users/Z585/Desktop/LD2sl/test2/test2.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""
+acom -O3 -work work -2002  $dsn/../impl1/schemaSR.vhd $dsn/../impl1/schemaMS.vhd $dsn/src/TestBench/schemams_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd
+# Compile Entity "SCHEMASR"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMASR"
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd
+# Compile Entity "SCHEMAMS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"
+# File: C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB.vhd
+# Compile Entity "schemams1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemams1_tb"
+# Compile Configuration "TESTBENCH_FOR_schemams"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+SetActiveLib -work
+comp -include "C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd
+# Compile Entity "SCHEMAMS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+comp -include "$dsn\src\TestBench\schemams_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB.vhd
+# Compile Entity "schemams1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemams1_tb"
+# Compile Configuration "TESTBENCH_FOR_schemams"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r TESTBENCH_FOR_schemams 
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.testbench_for_schemams'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+# Error: DO_001 in file C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB_runtest.do line 4
+# Error: Cannot run C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB_runtest.do
+acom -O3 -work work -2002  $dsn/../impl1/schemaSR.vhd $dsn/../impl1/schemaMS.vhd $dsn/src/TestBench/schemams_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd
+# Compile Entity "SCHEMASR"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMASR"
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd
+# Compile Entity "SCHEMAMS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"
+# File: C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB.vhd
+# Compile Entity "schemams1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemams1_tb"
+# Compile Configuration "TESTBENCH_FOR_schemams"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+SetActiveLib -work
+comp -include "C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd
+# Compile Entity "SCHEMAMS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\schemams_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB.vhd
+# Compile Entity "schemams1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemams1_tb"
+# Compile Configuration "TESTBENCH_FOR_schemams"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim +access +r TESTBENCH_FOR_schemams 
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.testbench_for_schemams'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+# Error: DO_001 in file C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB_runtest.do line 4
+# Error: Cannot run C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB_runtest.do
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 -L ovi_xp2 -PL pmi_work +access +r SCHEMAMS SCHEMATIC
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.SCHEMAMS'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+SetActiveLib -work
+comp -include "C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd
+# Compile Entity "SCHEMAMS"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+comp -include "$dsn\src\TestBench\schemams_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB.vhd
+# Compile Entity "schemams1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schemams1_tb"
+# Compile Configuration "TESTBENCH_FOR_schemams"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+asim +access +r TESTBENCH_FOR_schemams 
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.testbench_for_schemams'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+# Error: DO_001 in file C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB_runtest.do line 4
+# Error: Cannot run C:\Users\Z585\Desktop\LD2sl\test2\src\TestBench\schemams_TB_runtest.do

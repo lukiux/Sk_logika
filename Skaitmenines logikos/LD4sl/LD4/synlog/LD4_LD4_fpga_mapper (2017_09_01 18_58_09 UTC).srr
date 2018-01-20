@@ -1,0 +1,487 @@
+Synopsys Lattice Technology Mapper, Version maplat, Build 1264R, Built Aug 18 2015 10:39:57
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03L-SP1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":131:3:131:5|Net N_6 appears to be an unidentified clock source. Assuming default frequency. 
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 140MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 138MB peak: 140MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -0.65ns		   0 /         0
+
+
+
+   2		0h:00m:01s		    -0.65ns		   0 /         0
+
+   3		0h:00m:01s		    -0.65ns		   0 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 140MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 138MB peak: 140MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+2 non-gated/non-generated clock tree(s) driving 8 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       C                   port                   4          I7.I51         
+@K:CKID0002       I2                  INV                    4          I6.I51         
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 105MB peak: 140MB)
+
+Writing Analyst data base C:\Users\Z585\Desktop\LD4sl\LD4\synwork\LD4_LD4_m.srm
+@W: MT462 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":131:3:131:5|Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency. 
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 137MB peak: 140MB)
+
+Writing EDIF Netlist and constraint files
+@W: MT462 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":131:3:131:5|Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency. 
+J-2015.03L-SP1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 141MB peak: 143MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+@W: MT246 :"c:\users\z585\desktop\ld4sl\ld4\schemamskplis.vhd":82:3:82:5|Blackbox AND4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":121:3:121:5|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":107:3:107:5|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock SCHEMAMSKPLIS|C with period 1000.00ns. Please declare a user-defined clock on object "p:C"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Mon May 09 12:02:00 2016
+#
+
+
+Top view:               SCHEMAMSKPLIS
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.277
+
+                    Requested     Estimated     Requested     Estimated                 Clock        Clock                
+Starting Clock      Frequency     Frequency     Period        Period        Slack       Type         Group                
+--------------------------------------------------------------------------------------------------------------------------
+SCHEMAMSKPLIS|C     1.0 MHz       537.4 MHz     1000.000      1.861         998.139     inferred     Autoconstr_clkgroup_0
+System              637.8 MHz     542.1 MHz     1.568         1.845         -0.277      system       system_clkgroup      
+==========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------
+System           System           |  1.568       -0.277   |  No paths    -      |  No paths    -      |  No paths    -    
+System           SCHEMAMSKPLIS|C  |  1000.000    999.908  |  No paths    -      |  No paths    -      |  No paths    -    
+SCHEMAMSKPLIS|C  System           |  1000.000    998.139  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: SCHEMAMSKPLIS|C
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                         Arrival            
+Instance     Reference           Type        Pin     Net      Time        Slack  
+             Clock                                                               
+---------------------------------------------------------------------------------
+I7.I49       SCHEMAMSKPLIS|C     FD1S3DX     Q       N_11     1.108       998.139
+I7.I51       SCHEMAMSKPLIS|C     FD1S3DX     Q       N_12     1.067       998.220
+I7.I48       SCHEMAMSKPLIS|C     FD1S3DX     Q       N_9      1.067       998.285
+I7.I50       SCHEMAMSKPLIS|C     FD1S3DX     Q       N_10     1.067       998.358
+=================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                       Required            
+Instance     Reference           Type     Pin     Net       Time         Slack  
+             Clock                                                              
+--------------------------------------------------------------------------------
+I7.I23       SCHEMAMSKPLIS|C     AND2     B       N_104     1000.000     998.139
+I7.I59       SCHEMAMSKPLIS|C     AND2     B       N_104     1000.000     998.139
+I7.I64       SCHEMAMSKPLIS|C     AND2     A       N_104     1000.000     998.139
+I7.I67       SCHEMAMSKPLIS|C     OR2      A       N_104     1000.000     998.139
+I7.I14       SCHEMAMSKPLIS|C     AND3     C       N_101     1000.000     998.220
+I7.I54       SCHEMAMSKPLIS|C     AND2     A       N_101     1000.000     998.220
+I7.I62       SCHEMAMSKPLIS|C     AND3     C       N_101     1000.000     998.220
+I7.I62       SCHEMAMSKPLIS|C     AND3     A       N_85      1000.000     998.285
+I7.I67       SCHEMAMSKPLIS|C     OR2      B       N_85      1000.000     998.285
+I7.I66       SCHEMAMSKPLIS|C     AND3     A       N_98      1000.000     998.358
+================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1000.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1000.000
+
+    - Propagation time:                      1.861
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 998.139
+
+    Number of logic level(s):                1
+    Starting point:                          I7.I49 / Q
+    Ending point:                            I7.I23 / B
+    The start point is clocked by            SCHEMAMSKPLIS|C [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I7.I49             FD1S3DX     Q        Out     1.108     1.108       -         
+N_11               Net         -        -       -         -           8         
+I7.I34             INV         A        In      0.000     1.108       -         
+I7.I34             INV         Z        Out     0.753     1.861       -         
+N_104              Net         -        -       -         -           4         
+I7.I23             AND2        B        In      0.000     1.861       -         
+================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                    Arrival           
+Instance     Reference     Type        Pin     Net       Time        Slack 
+             Clock                                                         
+---------------------------------------------------------------------------
+I6.I49       System        FD1S3DX     Q       N_17      1.091       -0.277
+I6.I51       System        FD1S3DX     Q       N_5       1.075       -0.220
+I6.I50       System        FD1S3DX     Q       N_15      1.075       -0.082
+I6.I48       System        FD1S3DX     Q       Q13       0.929       -0.009
+I6.I40       System        MUX21       Z       N_26      0.000       1.476 
+I6.I41       System        MUX21       Z       N_102     0.000       1.476 
+I6.I42       System        MUX21       Z       N_31      0.000       1.476 
+I6.I43       System        MUX21       Z       N_42      0.000       1.476 
+I7.I7        System        OR2         Z       N_52      0.000       1.568 
+I6.I7        System        OR2         Z       N_52      0.000       1.568 
+===========================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                 Required           
+Instance     Reference     Type     Pin     Net       Time         Slack 
+             Clock                                                       
+-------------------------------------------------------------------------
+I6.I23       System        AND2     B       N_104     1.568        -0.277
+I6.I59       System        AND2     B       N_104     1.568        -0.277
+I6.I64       System        AND2     A       N_104     1.568        -0.277
+I6.I67       System        OR2      A       N_104     1.568        -0.277
+I6.I14       System        AND3     C       N_101     1.568        -0.220
+I6.I54       System        AND2     A       N_101     1.568        -0.220
+I6.I62       System        AND3     C       N_101     1.568        -0.220
+I6.I66       System        AND3     A       N_98      1.568        -0.082
+I6.I62       System        AND3     A       N_85      1.568        -0.009
+I6.I67       System        OR2      B       N_85      1.568        -0.009
+=========================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1.568
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.568
+
+    - Propagation time:                      1.845
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.277
+
+    Number of logic level(s):                1
+    Starting point:                          I6.I49 / Q
+    Ending point:                            I6.I23 / B
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I6.I49             FD1S3DX     Q        Out     1.091     1.091       -         
+N_17               Net         -        -       -         -           7         
+I6.I34             INV         A        In      0.000     1.091       -         
+I6.I34             INV         Z        Out     0.753     1.845       -         
+N_104              Net         -        -       -         -           4         
+I6.I23             AND2        B        In      0.000     1.845       -         
+================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      1.568
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.568
+
+    - Propagation time:                      1.845
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.277
+
+    Number of logic level(s):                1
+    Starting point:                          I6.I49 / Q
+    Ending point:                            I6.I59 / B
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I6.I49             FD1S3DX     Q        Out     1.091     1.091       -         
+N_17               Net         -        -       -         -           7         
+I6.I34             INV         A        In      0.000     1.091       -         
+I6.I34             INV         Z        Out     0.753     1.845       -         
+N_104              Net         -        -       -         -           4         
+I6.I59             AND2        B        In      0.000     1.845       -         
+================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      1.568
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.568
+
+    - Propagation time:                      1.845
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.277
+
+    Number of logic level(s):                1
+    Starting point:                          I6.I49 / Q
+    Ending point:                            I6.I64 / A
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I6.I49             FD1S3DX     Q        Out     1.091     1.091       -         
+N_17               Net         -        -       -         -           7         
+I6.I34             INV         A        In      0.000     1.091       -         
+I6.I34             INV         Z        Out     0.753     1.845       -         
+N_104              Net         -        -       -         -           4         
+I6.I64             AND2        A        In      0.000     1.845       -         
+================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      1.568
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.568
+
+    - Propagation time:                      1.845
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (critical) :                     -0.277
+
+    Number of logic level(s):                1
+    Starting point:                          I6.I49 / Q
+    Ending point:                            I6.I67 / A
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I6.I49             FD1S3DX     Q        Out     1.091     1.091       -         
+N_17               Net         -        -       -         -           7         
+I6.I34             INV         A        In      0.000     1.091       -         
+I6.I34             INV         Z        Out     0.753     1.845       -         
+N_104              Net         -        -       -         -           4         
+I6.I67             OR2         A        In      0.000     1.845       -         
+================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      1.568
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         1.568
+
+    - Propagation time:                      1.788
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.220
+
+    Number of logic level(s):                1
+    Starting point:                          I6.I51 / Q
+    Ending point:                            I6.I14 / C
+    The start point is clocked by            System [rising] on pin CK
+    The end   point is clocked by            System [rising]
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+I6.I51             FD1S3DX     Q        Out     1.075     1.075       -         
+N_5                Net         -        -       -         -           6         
+I6.I35             INV         A        In      0.000     1.075       -         
+I6.I35             INV         Z        Out     0.713     1.788       -         
+N_101              Net         -        -       -         -           3         
+I6.I14             AND3        C        In      0.000     1.788       -         
+================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 142MB peak: 143MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-6
+
+Register bits: 8 of 4752 (0%)
+PIC Latch:       0
+I/O cells:       10
+
+
+Details:
+AND2:           9
+FD1S3DX:        8
+GSR:            1
+IB:             2
+INV:            18
+MUX21:          8
+OB:             8
+OR2:            7
+PUR:            1
+VHI:            3
+VLO:            3
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 52MB peak: 143MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon May 09 12:02:01 2016
+
+###########################################################]

@@ -1,0 +1,7 @@
+@W: MT462 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":131:3:131:5|Net N_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":131:3:131:5|Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT462 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":131:3:131:5|Net I7.N_6 appears to be an unidentified clock source. Assuming default frequency. 
+@W: MT246 :"c:\users\z585\desktop\ld4sl\ld4\schemamskplis.vhd":82:3:82:5|Blackbox AND4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":121:3:121:5|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\z585\desktop\ld4sl\ld4\schemamsk.vhd":107:3:107:5|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock SCHEMAMSKPLIS|C with period 1000.00ns. Please declare a user-defined clock on object "p:C"

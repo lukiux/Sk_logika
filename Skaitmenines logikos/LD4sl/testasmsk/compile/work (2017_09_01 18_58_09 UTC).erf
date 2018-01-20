@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd" 
+MESSAGE "Compile Entity "SCHEMAMSK"" 
+MESSAGE "Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

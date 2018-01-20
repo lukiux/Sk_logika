@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  DEKODERIS3  -multisrs  E:\LD1sl\LD1\synwork\LD1_LD1_comp.srs  -osyn  E:\LD1sl\LD1\synwork\LD1_LD1_mult.srs  -log  E:\LD1sl\LD1\synlog\LD1_LD1_multi_srs_gen.srr 
+rc:0 success:1
+E:\LD1sl\LD1\synwork\LD1_LD1_comp.srs|i|1456823476|4092
+E:\LD1sl\LD1\synwork\LD1_LD1_mult.srs|o|1456823478|4324
+E:\LD1sl\LD1\synlog\LD1_LD1_multi_srs_gen.srr|o|1456823478|443
+C:\lscc\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439941612|3007488
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439941798|3974144

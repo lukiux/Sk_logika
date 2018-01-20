@@ -1,0 +1,139 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn160216230945"></A><B><U><big>pn160216230945</big></U></B>
+#Start recording tcl command: 2/16/2016 12:42:46
+#Project Location: C:/Users/Z585/Desktop/LD1; Project name: LD1
+prj_project new -name "LD1" -impl "LD1" -dev LFXP2-5E-6TN144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Z585/Desktop/LD1/dekoderis.sch"
+prj_src add "C:/Users/Z585/Desktop/LD1/dekoderis2.sch"
+prj_src add "C:/Users/Z585/Desktop/LD1/dekoderis3.sch"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src add "C:/Users/Z585/Desktop/LD1/testas_dekoderis/testas_dekoderis.spf"
+#Stop recording: 2/16/2016 23:09:45
+
+
+
+<A name="pn160228182738"></A><B><U><big>pn160228182738</big></U></B>
+#Start recording tcl command: 2/28/2016 18:27:34
+#Project Location: C:/Users/Z585/Desktop/LD1sl; Project name: LD1
+prj_project open "C:/Users/Z585/Desktop/LD1sl/LD1.ldf"
+#Stop recording: 2/28/2016 18:27:38
+
+
+
+<A name="pn160301013643"></A><B><U><big>pn160301013643</big></U></B>
+#Start recording tcl command: 2/29/2016 19:07:25
+#Project Location: C:/Users/Z585/Desktop/LD1sl; Project name: LD1
+prj_project open "C:/Users/Z585/Desktop/LD1sl/LD1.ldf"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/testas_dekoderis/testas_dekoderis.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika2/Klasika2.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf" "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf" "C:/Users/Z585/Desktop/LD1sl/Klasika2/Klasika2.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf"
+prj_run Translate -impl LD1
+prj_run Translate -impl LD1
+#Stop recording: 3/1/2016 01:36:43
+
+
+
+<A name="pn160301015036"></A><B><U><big>pn160301015036</big></U></B>
+#Start recording tcl command: 3/1/2016 01:37:15
+#Project Location: C:/Users/Z585/Desktop/LD1sl; Project name: LD1
+prj_project open "C:/Users/Z585/Desktop/LD1sl/LD1.ldf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/testas/testas.spf"
+#Stop recording: 3/1/2016 01:50:36
+
+
+
+<A name="pn160301120235"></A><B><U><big>pn160301120235</big></U></B>
+#Start recording tcl command: 3/1/2016 11:08:40
+#Project Location: E:/LD1sl; Project name: LD1
+prj_project open "E:/LD1sl/LD1.ldf"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src remove "E:/LD1sl/testas/testas.spf"
+prj_src add "E:/LD1sl/testas1/testas1.spf"
+#Stop recording: 3/1/2016 12:02:35
+
+
+
+<A name="pn160304130514"></A><B><U><big>pn160304130514</big></U></B>
+#Start recording tcl command: 3/4/2016 13:05:04
+#Project Location: C:/Users/Z585/Desktop/LD1sl; Project name: LD1
+prj_project open "C:/Users/Z585/Desktop/LD1sl/LD1.ldf"
+#Stop recording: 3/4/2016 13:05:14
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

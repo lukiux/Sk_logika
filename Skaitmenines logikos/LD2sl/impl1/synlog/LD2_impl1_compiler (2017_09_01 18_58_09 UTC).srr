@@ -1,0 +1,55 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.6_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":8:7:8:15|Top entity is set to SCHEMAMS1.
+File C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd changed - recompiling
+File C:\lscc\diamond\3.6_x64\synpbase\lib\lucent\xp2.vhd changed - recompiling
+File C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd changed - recompiling
+File C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd changed - recompiling
+@N: CD630 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":8:7:8:15|Synthesizing work.schemams1.schematic 
+@W: CD638 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":21:10:21:12|Signal gnd is undriven 
+@W: CD638 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":22:10:22:12|Signal vcc is undriven 
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1135:10:1135:12|Synthesizing work.nd2.syn_black_box 
+Post processing for work.nd2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1144:10:1144:12|Synthesizing work.nd3.syn_black_box 
+Post processing for work.nd3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1315:10:1315:12|Synthesizing work.or2.syn_black_box 
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1544:10:1544:13|Synthesizing work.xor2.syn_black_box 
+Post processing for work.xor2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box 
+Post processing for work.inv.syn_black_box
+Post processing for work.schemams1.schematic
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 04 22:52:51 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 117R, built Aug 18 2015
+@N|Running in 64-bit mode
+File C:\Users\Z585\Desktop\LD2sl\impl1\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 67MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 04 22:52:52 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 04 22:52:52 2016
+
+###########################################################]

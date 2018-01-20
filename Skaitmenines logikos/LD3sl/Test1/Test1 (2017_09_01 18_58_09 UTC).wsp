@@ -1,0 +1,14 @@
+[COMPILESTATUS|.\..\LD3\SchemaUNI.v]
+FileTimeLow=30511583
+Status=Compiled
+
+[COMPILESTATUS|.\..\LD3\lo.v]
+FileTimeLow=30511583
+Status=Compiled
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\Test1.adf|]
+Path=/lo
+

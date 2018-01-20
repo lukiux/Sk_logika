@@ -1,0 +1,1 @@
+-w -s "E:\LD1sl\testas\library.cfg"  -j "E:\LD1sl\testas\projlib.cfg"  -d "E:\LD1sl\testas\compile"   -work work  -O3 -e 100 -2002 "E:/LD1sl/testas/src/TestBench/dekoderis_TB.vhd"

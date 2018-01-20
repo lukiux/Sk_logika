@@ -1,0 +1,170 @@
+# Design Explorer: Shortcut to "C:\Users\Z585\Desktop\LD1\testas_dekoderis\testas_dekoderis.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile C:/Users/Z585/Desktop/LD1/LD1/dekoderis.vhd
+# Adding file C:\Users\Z585\Desktop\LD1\LD1\dekoderis.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD1/LD1/dekoderis2.vhd
+# Adding file C:\Users\Z585\Desktop\LD1\LD1\dekoderis2.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD1/LD1/dekoderis3.vhd
+# Adding file C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd ... Done
+vlib C:/Users/Z585/Desktop/LD1/testas_dekoderis/work
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LD1/LD1/dekoderis.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis.vhd
+# Compile Entity "DEKODERIS"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD1/LD1/dekoderis2.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis2.vhd
+# Compile Entity "DEKODERIS2"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD1/LD1/dekoderis3.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd
+# Compile Entity "DEKODERIS3"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+entity DEKODERIS
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r DEKODERIS -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1024 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD1\testas_dekoderis\src\wave.asdb
+#  7:51 PM, Tuesday, February 16, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: DEKODERIS (SCHEMATIC)
+add wave *
+# 26 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD1/testas_dekoderis/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -work work -2002  $dsn/../LD1/dekoderis.vhd $dsn/../LD1/dekoderis2.vhd $dsn/../LD1/dekoderis3.vhd $dsn/src/TestBench/dekoderis_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis.vhd
+# Compile Entity "DEKODERIS"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS"
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis2.vhd
+# Compile Entity "DEKODERIS2"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS2"
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd
+# Compile Entity "DEKODERIS3"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS3"
+# File: C:\Users\Z585\Desktop\LD1\testas_dekoderis\src\TestBench\dekoderis_TB.vhd
+# Compile Entity "dekoderis_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dekoderis_tb"
+# Error: COMP96_0122: testas_dekoderis/src/TestBench/dekoderis_TB.vhd : (65, 1): Symbol "x6p" has already been declared in this scope.
+# Compile Configuration "TESTBENCH_FOR_dekoderis"
+# Error: COMP96_0209: testas_dekoderis/src/TestBench/dekoderis_TB.vhd : (103, 6): Unknown architecture name used in configuration declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work work -2002  $dsn/../LD1/dekoderis.vhd $dsn/../LD1/dekoderis2.vhd $dsn/../LD1/dekoderis3.vhd $dsn/src/TestBench/dekoderis_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis.vhd
+# Compile Entity "DEKODERIS"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS"
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis2.vhd
+# Compile Entity "DEKODERIS2"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS2"
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis3.vhd
+# Compile Entity "DEKODERIS3"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS3"
+# File: C:\Users\Z585\Desktop\LD1\testas_dekoderis\src\TestBench\dekoderis_TB.vhd
+# Compile Entity "dekoderis_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dekoderis_tb"
+# Compile Configuration "TESTBENCH_FOR_dekoderis"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+SetActiveLib -work
+comp -include "C:\Users\Z585\Desktop\LD1\LD1\dekoderis.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD1\LD1\dekoderis.vhd
+# Compile Entity "DEKODERIS"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\TestBench\dekoderis_TB.vhd" 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\Z585\Desktop\LD1\testas_dekoderis\src\TestBench\dekoderis_TB.vhd
+# Compile Entity "dekoderis_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "dekoderis_tb"
+# Compile Configuration "TESTBENCH_FOR_dekoderis"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim +access +r TESTBENCH_FOR_dekoderis 
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6987 kB (elbread=1024 elab2=5814 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD1\testas_dekoderis\src\wave.asdb
+#  8:03 PM, Tuesday, February 16, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: testbench_for_dekoderis
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD1/testas_dekoderis/src/wave.asdb'.
+wave 
+wave -noreg x1
+wave -noreg x2
+wave -noreg x3
+wave -noreg x4
+wave -noreg x5
+wave -noreg x6
+wave -noreg f
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\dekoderis_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_dekoderis 
+# 7 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Z585/Desktop/LD1/testas_dekoderis/src/wave.asdb'.
+run @640ns
+# KERNEL: stopped at time: 640 ns
+# Adding file C:\Users\Z585\Desktop\LD1\untitled.asdb ... Done
+# Adding file C:\Users\Z585\Desktop\LD1\untitled.awc ... Done
+# Adding file C:\Users\Z585\Desktop\LD1\untitled.awc ... Done
+#  Simulation has been stopped
+# Adding file C:\Users\Z585\Desktop\LD1\testas_dekoderis\src\untitled.asdb ... Done
+# Adding file C:\Users\Z585\Desktop\LD1\testas_dekoderis\src\untitled.awc ... Done

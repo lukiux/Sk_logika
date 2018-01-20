@@ -1,0 +1,71 @@
+# Design Explorer: Shortcut to "C:\Users\Z585\Desktop\LD1sl\testas1\testas1.aws" design added.
+# Waveform file 'C:/Users/Z585/Desktop/LD1sl/testas1.awc' connected to 'C:/Users/Z585/Desktop/LD1sl/testas1.asdb'.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/Z585/Desktop/LD1sl/LD1/dekoderis.vhd
+# Adding file C:\Users\Z585\Desktop\LD1sl\LD1\dekoderis.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD1sl/LD1/dekoderis2.vhd
+# Adding file C:\Users\Z585\Desktop\LD1sl\LD1\dekoderis2.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD1sl/LD1/dekoderis3.vhd
+# Adding file C:\Users\Z585\Desktop\LD1sl\LD1\dekoderis3.vhd ... Done
+vlib C:/Users/Z585/Desktop/LD1sl/testas1/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LD1sl/LD1/dekoderis.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD1sl\LD1\dekoderis.vhd
+# Compile Entity "DEKODERIS"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD1sl/LD1/dekoderis2.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD1sl\LD1\dekoderis2.vhd
+# Compile Entity "DEKODERIS2"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD1sl/LD1/dekoderis3.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD1sl\LD1\dekoderis3.vhd
+# Compile Entity "DEKODERIS3"
+# Compile Architecture "SCHEMATIC" of Entity "DEKODERIS3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+entity DEKODERIS
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r DEKODERIS -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1024 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Z585\Desktop\LD1sl\testas1\src\wave.asdb
+#  1:09 PM, Friday, March 4, 2016
+#  Simulation has been initialized
+#  Selected Top-Level: DEKODERIS (SCHEMATIC)
+add wave *
+run 1000ns
+# Warning: WAVEFORM: Object matching /DEKODERIS/* not found in C:/Users/Z585/Desktop/LD1sl/testas1.asdb.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+#  Simulation has been stopped

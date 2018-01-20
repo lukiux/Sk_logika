@@ -1,0 +1,9 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_hdl_.srs  -top  SCHEMAMS1  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Z585\Desktop\LD2sl\impl1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd -lib work C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd  -log  C:\Users\Z585\Desktop\LD2sl\impl1\syntax.log  -fileorder  C:\Users\Z585\Desktop\LD2sl\impl1\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\Z585\Desktop\LD2sl\impl1\synwork\LD2_impl1_hdl_.srs|o|0|0
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd|i|1376992808|146261
+C:\Users\Z585\Desktop\LD2sl\impl1\schemaSR.vhd|i|1459799561|1931
+C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd|i|1459799562|2521
+C:\Users\Z585\Desktop\LD2sl\impl1\syntax.log|o|1459799570|909
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439945178|2326016
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439945374|3183616

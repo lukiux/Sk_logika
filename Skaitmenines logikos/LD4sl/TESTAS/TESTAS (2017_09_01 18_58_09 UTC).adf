@@ -1,0 +1,79 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=work
+
+[Library]
+Testas=.\Testas\Testas.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+testas=.
+work=.
+
+[LocalVerilogDirs]
+Count=0
+
+[DefineMacro]
+Global=
+
+[Groups]
+TestBench=1
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=schemamsk|SCHEMATIC|0 schemamsk2_tb|testbench_for_schemamsk2|1 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/..\..\LD4\SchemaMsk.vhd=-1
+/..\..\LD4\SchemaM1.vhd=-1
+/..\..\LD4\SchemaMSK2.vhd=-1
+/..\..\TestM1.awc=-1
+TestBench/schemamsk2_TB.vhd=-1
+TestBench/schemamsk2_TB_runtest.do=-1
+TestBench/schemam1_TB.vhd=-1
+TestBench/schemam1_TB_runtest.do=-1
+TestBench/schemamsk_TB.vhd=-1
+TestBench/schemamsk_TB_runtest.do=-1
+
+[Files.Data]
+.\..\LD4\SchemaMsk.vhd=VHDL Source Code
+.\..\LD4\SchemaM1.vhd=VHDL Source Code
+.\..\LD4\SchemaMSK2.vhd=VHDL Source Code
+.\..\TestM1.awc=Accelerated Waveform Configuration
+.\src\TestBench\schemamsk2_TB.vhd=VHDL Test Bench
+.\src\TestBench\schemamsk2_TB_runtest.do=Macro
+.\src\TestBench\schemam1_TB.vhd=VHDL Test Bench
+.\src\TestBench\schemam1_TB_runtest.do=Macro
+.\src\TestBench\schemamsk_TB.vhd=VHDL Test Bench
+.\src\TestBench\schemamsk_TB_runtest.do=Macro
+

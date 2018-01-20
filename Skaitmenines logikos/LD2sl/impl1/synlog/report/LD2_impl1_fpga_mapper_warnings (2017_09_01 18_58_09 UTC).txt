@@ -1,0 +1,2 @@
+@W: MT246 :"c:\users\z585\desktop\ld2sl\impl1\schemams1.vhd":91:3:91:5|Blackbox ND2 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"c:\users\z585\desktop\ld2sl\impl1\schemams1.vhd":79:3:79:4|Blackbox ND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

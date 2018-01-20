@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "LD3_LD3.log"
+-o "LD3_LD3.csv"
+-pr "LD3_LD3.prf"

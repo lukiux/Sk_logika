@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LD4sl\TESTAS\library.cfg"  -j "C:\Users\Z585\Desktop\LD4sl\TESTAS\projlib.cfg"  -d "C:\Users\Z585\Desktop\LD4sl\TESTAS\compile"   -work work  -O3 -e 100 -2002 "C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd" "C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMSK2.vhd"

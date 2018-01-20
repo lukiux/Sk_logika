@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS.vhd" 
+MESSAGE "Compile Entity "SCHEMAMS"" 
+MESSAGE "Compile Architecture "SCHEMATIC" of Entity "SCHEMAMS"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

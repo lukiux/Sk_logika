@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="LD1" device="LFXP2-5E-6TN144C" default_implementation="LD1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="LD1" dir="LD1" description="LD1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="DEKODERIS3"/>
+        <Source name="dekoderis.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="DEKODERIS"/>
+        </Source>
+        <Source name="dekoderis2.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="DEKODERIS2"/>
+        </Source>
+        <Source name="dekoderis3.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="DEKODERIS3"/>
+        </Source>
+        <Source name="LD1.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="testas1/testas1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="LD11.sty"/>
+</BaliProject>

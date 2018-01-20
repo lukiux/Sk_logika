@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\Z585\Desktop\LDtrecias\testt\src\TestBench\schemauni_TB.vhd" 
+MESSAGE "Compile Entity "schemauni_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "schemauni_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_schemauni"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

@@ -1,0 +1,14 @@
+@N: CD630 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":8:7:8:15|Synthesizing work.schemams1.schematic 
+@W: CD638 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":21:10:21:12|Signal gnd is undriven 
+@W: CD638 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":22:10:22:12|Signal vcc is undriven 
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1135:10:1135:12|Synthesizing work.nd2.syn_black_box 
+Post processing for work.nd2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1144:10:1144:12|Synthesizing work.nd3.syn_black_box 
+Post processing for work.nd3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1315:10:1315:12|Synthesizing work.or2.syn_black_box 
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":1544:10:1544:13|Synthesizing work.xor2.syn_black_box 
+Post processing for work.xor2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box 
+Post processing for work.inv.syn_black_box
+Post processing for work.schemams1.schematic

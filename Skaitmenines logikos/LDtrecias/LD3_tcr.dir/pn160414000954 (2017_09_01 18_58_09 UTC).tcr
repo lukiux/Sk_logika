@@ -1,0 +1,14 @@
+#Start recording tcl command: 4/13/2016 20:59:04
+#Project Location: C:/Users/Z585/Desktop/LDtrecias; Project name: LD3
+prj_project open "C:/Users/Z585/Desktop/LDtrecias/LD3.ldf"
+prj_run Synthesis -impl LD3
+prj_src remove "C:/Users/Z585/Desktop/LDtrecias/pvz.sch"
+prj_run Synthesis -impl LD3
+prj_run Translate -impl LD3
+prj_src add "C:/Users/Z585/Desktop/LDtrecias/Testas2/Testas2.spf"
+prj_run Synthesis -impl LD3 -forceAll
+prj_run Translate -impl LD3 -forceAll
+prj_src remove "C:/Users/Z585/Desktop/LDtrecias/Testas2/Testas2.spf"
+prj_src add "C:/Users/Z585/Desktop/LDtrecias/Testas2/Testas2.spf"
+prj_run Translate -impl LD3 -forceAll
+#Stop recording: 4/14/2016 00:09:54

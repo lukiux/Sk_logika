@@ -1,0 +1,10 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\Z585\Desktop\LDtrecias\LD3\synwork\LD3_LD3_hdl_.srs  -top  SCHEMAPLIS  -prodtype  synplify_pro  -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\Z585\Desktop\LDtrecias\LD3\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd -lib work C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaUNI.vhd -lib work C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPostumis.vhd -lib work C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPLIS.vhd  -log  C:\Users\Z585\Desktop\LDtrecias\LD3\syntax.log  -fileorder  C:\Users\Z585\Desktop\LDtrecias\LD3\syntmp\hdlorder.tcl 
+rc:0 success:1
+C:\Users\Z585\Desktop\LDtrecias\LD3\synwork\LD3_LD3_hdl_.srs|o|0|0
+C:\lscc\diamond\3.6_x64\cae_library\synthesis\vhdl\xp2.vhd|i|1376992808|146261
+C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaUNI.vhd|i|1461158821|4950
+C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPostumis.vhd|i|1461158821|5069
+C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPLIS.vhd|i|1461158821|5652
+C:\Users\Z585\Desktop\LDtrecias\LD3\syntax.log|o|1461158823|913
+C:\lscc\diamond\3.6_x64\synpbase\bin\c_vhdl.exe|i|1439945178|2326016
+C:\lscc\diamond\3.6_x64\synpbase\bin64\c_vhdl.exe|i|1439945374|3183616

@@ -1,0 +1,43 @@
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/test2.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/testasmsk/src/wave.asdb'.
+# Warning: Cannot display signals from waveform file (AWC). The file does not match associated simulation database (ASDB).
+# Warning: Open 'C:/Users/Z585/Desktop/LD4sl/testasmsk/src/wave.asdb' file to view simulation results.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile C:/Users/Z585/Desktop/LD4sl/LD4/SchemaM1.vhd
+# Adding file C:\Users\Z585\Desktop\LD4sl\LD4\SchemaM1.vhd ... Done
+addfile C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd
+# Adding file C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd ... Done
+vlib C:/Users/Z585/Desktop/LD4sl/testasmsk/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work C:/Users/Z585/Desktop/LD4sl/LD4/SchemaM1.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaM1.vhd
+# Compile Entity "SCHEMAM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAM1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+vcom -dbg -work work C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd
+# Compile...
+# File: C:\Users\Z585\Desktop\LD4sl\LD4\SchemaMsk.vhd
+# Compile Entity "SCHEMAMSK"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEMAMSK"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+entity SCHEMAM1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SCHEMAM1 -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.SCHEMAM1'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: vsim: cannot select specified top-level
+add wave *
+# Waveform file 'C:/Users/Z585/Desktop/LD4sl/test2.awc' connected to 'C:/Users/Z585/Desktop/LD4sl/testasmsk/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /* not found in C:/Users/Z585/Desktop/LD4sl/testasmsk/src/wave.asdb.

@@ -1,0 +1,22 @@
+#Start recording tcl command: 2/29/2016 19:07:25
+#Project Location: C:/Users/Z585/Desktop/LD1sl; Project name: LD1
+prj_project open "C:/Users/Z585/Desktop/LD1sl/LD1.ldf"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/testas_dekoderis/testas_dekoderis.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika2/Klasika2.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf" "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf" "C:/Users/Z585/Desktop/LD1sl/Klasika2/Klasika2.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika/Klasika.spf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf"
+prj_src remove "C:/Users/Z585/Desktop/LD1sl/Klasika1/Klasika1.spf"
+prj_run Translate -impl LD1
+prj_run Translate -impl LD1
+#Stop recording: 3/1/2016 01:36:43

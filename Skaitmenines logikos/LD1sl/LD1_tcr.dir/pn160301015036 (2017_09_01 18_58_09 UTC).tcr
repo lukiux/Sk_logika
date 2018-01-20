@@ -1,0 +1,5 @@
+#Start recording tcl command: 3/1/2016 01:37:15
+#Project Location: C:/Users/Z585/Desktop/LD1sl; Project name: LD1
+prj_project open "C:/Users/Z585/Desktop/LD1sl/LD1.ldf"
+prj_src add "C:/Users/Z585/Desktop/LD1sl/testas/testas.spf"
+#Stop recording: 3/1/2016 01:50:36

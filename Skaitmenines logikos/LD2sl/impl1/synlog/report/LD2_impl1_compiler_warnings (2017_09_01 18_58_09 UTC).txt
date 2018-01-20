@@ -1,0 +1,3 @@
+@W: CD638 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":21:10:21:12|Signal gnd is undriven 
+@W: CD638 :"C:\Users\Z585\Desktop\LD2sl\impl1\schemaMS1.vhd":22:10:22:12|Signal vcc is undriven 
+

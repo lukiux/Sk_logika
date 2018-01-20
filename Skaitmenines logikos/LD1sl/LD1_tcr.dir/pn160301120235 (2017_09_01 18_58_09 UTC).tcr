@@ -1,0 +1,8 @@
+#Start recording tcl command: 3/1/2016 11:08:40
+#Project Location: E:/LD1sl; Project name: LD1
+prj_project open "E:/LD1sl/LD1.ldf"
+prj_run Synthesis -impl LD1
+prj_run Translate -impl LD1
+prj_src remove "E:/LD1sl/testas/testas.spf"
+prj_src add "E:/LD1sl/testas1/testas1.spf"
+#Stop recording: 3/1/2016 12:02:35

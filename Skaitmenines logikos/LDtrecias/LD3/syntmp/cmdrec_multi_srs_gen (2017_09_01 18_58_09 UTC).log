@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  SCHEMAPLIS  -multisrs  C:\Users\Z585\Desktop\LDtrecias\LD3\synwork\LD3_LD3_comp.srs  -osyn  C:\Users\Z585\Desktop\LDtrecias\LD3\synwork\LD3_LD3_mult.srs  -log  C:\Users\Z585\Desktop\LDtrecias\LD3\synlog\LD3_LD3_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Z585\Desktop\LDtrecias\LD3\synwork\LD3_LD3_comp.srs|i|1461158824|4861
+C:\Users\Z585\Desktop\LDtrecias\LD3\synwork\LD3_LD3_mult.srs|o|1461158825|5136
+C:\Users\Z585\Desktop\LDtrecias\LD3\synlog\LD3_LD3_multi_srs_gen.srr|o|1461158825|466
+C:\lscc\diamond\3.6_x64\synpbase\bin\syn_nfilter.exe|i|1439945212|3007488
+C:\lscc\diamond\3.6_x64\synpbase\bin64\syn_nfilter.exe|i|1439945398|3974144

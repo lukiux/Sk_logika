@@ -1,0 +1,10 @@
+7
+~E 1 "./../../LD1/dekoderis.vhd" 8 DEKODERIS
+~A 1 "./../../LD1/dekoderis.vhd" 19 SCHEMATIC
+~E 1 "./../../LD1/dekoderis2.vhd" 8 DEKODERIS2
+~A 1 "./../../LD1/dekoderis2.vhd" 19 SCHEMATIC
+~E 1 "./../../LD1/dekoderis3.vhd" 8 DEKODERIS3
+~A 1 "./../../LD1/dekoderis3.vhd" 19 SCHEMATIC
+~E 1 "./../src/TestBench/dekoderis_TB.vhd" 8 dekoderis_tb
+~A 1 "./../src/TestBench/dekoderis_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/dekoderis_TB.vhd" 95 testbench_for_dekoderis

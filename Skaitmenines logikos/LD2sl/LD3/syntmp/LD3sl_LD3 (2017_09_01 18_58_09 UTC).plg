@@ -1,0 +1,24 @@
+@P:  Worst Slack : 998.390
+@P:  SchemaUNI|clock - Estimated Frequency : 621.2 MHz
+@P:  SchemaUNI|clock - Requested Frequency : 1.0 MHz
+@P:  SchemaUNI|clock - Estimated Period : 1.610
+@P:  SchemaUNI|clock - Requested Period : 1000.000
+@P:  SchemaUNI|clock - Slack : 998.390
+@P:  System - Estimated Frequency : 10857.8 MHz
+@P:  System - Requested Frequency : 1.0 MHz
+@P:  System - Estimated Period : 0.092
+@P:  System - Requested Period : 1000.000
+@P:  System - Slack : 999.908
+@P:  Worst Slack(min analysis) : -0.065
+@P:  SchemaUNI|clock - Estimated Frequency(min analysis) : 1.0 MHz
+@P:  SchemaUNI|clock - Requested Frequency(min analysis) : 1.0 MHz
+@P:  SchemaUNI|clock - Estimated Period(min analysis) : 998.902
+@P:  SchemaUNI|clock - Requested Period(min analysis) : 1000.000
+@P:  SchemaUNI|clock - Slack(min analysis) : 1.099
+@P:  System - Estimated Frequency(min analysis) : 1.0 MHz
+@P:  System - Requested Frequency(min analysis) : 1.0 MHz
+@P:  System - Estimated Period(min analysis) : 1000.065
+@P:  System - Requested Period(min analysis) : 1000.000
+@P:  System - Slack(min analysis) : -0.065
+@P:  Total Area : 16.0
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,3 @@
+
+sch2vlog -FPGA -i C:/Users/Z585/Desktop/LD2sl/SchemaUNI.sch -o C:/Users/Z585/Desktop/LD3sl/LD3/SchemaUNI.v -gui -msgset C:/Users/Z585/Desktop/LD3sl/promote.xml
+Failed to open C:/Users/Z585/Desktop/LD2sl/SchemaUNI.schchild process exited abnormally

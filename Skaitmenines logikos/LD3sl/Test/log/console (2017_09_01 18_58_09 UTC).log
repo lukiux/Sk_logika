@@ -1,0 +1,112 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile C:/Users/Z585/Desktop/LD3sl/LD3/SchemaUNI.v
+# Adding file C:\Users\Z585\Desktop\LD3sl\LD3\SchemaUNI.v ... Done
+vlib C:/Users/Z585/Desktop/LD3sl/Test/work
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vlog -dbg -work work C:/Users/Z585/Desktop/LD3sl/LD3/SchemaUNI.v
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# ELB/DAG code generating.
+# Unit top modules: SchemaUNI.
+# $root top modules: SchemaUNI.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+module SchemaUNI
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'SchemaUNI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SchemaUNI -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'SchemaUNI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# vsim: Stack memory: 32MB
+# vsim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0036 Unresolved hierarchical reference to "PUR_INST.PURNET" from module "SchemaUNI.I9" (module not found).
+# ELAB2: Last instance before error: /SchemaUNI/I9
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+#  Simulation has been stopped
+add wave *
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/Z585/Desktop/LD3sl/Test/Test.ado" line 26)
+#     invoked from within
+# "source {C:/Users/Z585/Desktop/LD3sl/Test/Test.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""
+asim -O5 -L ovi_xp2 -PL pmi_work +access +r SchemaUNI
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Module 'SchemaUNI' does not have a `timescale directive, but previous modules do.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0036 Unresolved hierarchical reference to "PUR_INST.PURNET" from module "SchemaUNI.I9" (module not found).
+# ELAB2: Last instance before error: /SchemaUNI/I9
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+#  Simulation has been stopped
+setactivelib -work
+# #Compiling UUT module design files
+comp -include C:\Users\Z585\Desktop\LD3sl\LD3\SchemaUNI.v
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: SchemaUNI.
+# $root top modules: SchemaUNI.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+comp -include "$dsn\src\TestBench\SchemaUNI_TB.v"
+# Warning: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# Compile...
+# Pass 1. Scanning modules hierarchy.
+# Info: VCP2113 Module \$root found in current working library.
+# Info: VCP2113 Module SchemaUNI found in current working library.
+# Pass 2. Processing instantiations.
+# Pass 3. Processing behavioral statements.
+# Running Optimizer.
+# ELB/DAG code generating.
+# Info: VCP2113 Module \$root found in current working library.
+# Unit top modules: SchemaUNI_tb.
+# $root top modules: SchemaUNI_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+asim +access +r SchemaUNI_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: ELBREAD_0081 SchemaUNI.v (46): Design unit AND2 instantiated in work.SchemaUNI not found in searched libraries: work.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+# Error: DO_001 in file C:\Users\Z585\Desktop\LD3sl\Test\src\TestBench\SchemaUNI_TB_runtest.do line 5
+# Error: Cannot run C:\Users\Z585\Desktop\LD3sl\Test\src\TestBench\SchemaUNI_TB_runtest.do

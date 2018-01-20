@@ -1,0 +1,61 @@
+----------------------------------------------------------------------
+Report for cell SCHEMAMSKPLIS.schematic
+
+Register bits: 8 of 4752 (0%)
+PIC Latch:       0
+I/O cells:       10
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        9       100.0
+                               AND3        8       100.0
+                               AND4        1       100.0
+                            FD1S3DX        8       100.0
+                                GSR        1       100.0
+                                 IB        2       100.0
+                                INV       18       100.0
+                              MUX21        8       100.0
+                                 OB        8       100.0
+                                OR2        7       100.0
+                                OR3        2       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        3       100.0
+SUB MODULES 
+                        SCHEMAMSK_0        1       100.0
+                        SCHEMAMSK_1        1       100.0
+                            
+                         TOTAL            81           
+----------------------------------------------------------------------
+Report for cell SCHEMAMSK_0.netlist
+  Original Cell name SCHEMAMSK
+     Instance path:  I7
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        5        55.6
+                               AND3        4        50.0
+                            FD1S3DX        4        50.0
+                                INV        4        22.2
+                              MUX21        4        50.0
+                                OR2        3        42.9
+                                OR3        1        50.0
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            27           
+----------------------------------------------------------------------
+Report for cell SCHEMAMSK_1.netlist
+  Original Cell name SCHEMAMSK
+     Instance path:  I6
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        4        44.4
+                               AND3        4        50.0
+                            FD1S3DX        4        50.0
+                                INV        4        22.2
+                              MUX21        4        50.0
+                                OR2        3        42.9
+                                OR3        1        50.0
+                                VHI        1        33.3
+                                VLO        1        33.3
+                            
+                         TOTAL            26           

@@ -1,0 +1,1 @@
+-w -s "C:\Users\Z585\Desktop\LDtrecias\Testas2\library.cfg"  -j "C:\Users\Z585\Desktop\LDtrecias\Testas2\projlib.cfg"  -d "C:\Users\Z585\Desktop\LDtrecias\Testas2\compile"   -work work  -dbg -e 100 "C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaPLIS.vhd"

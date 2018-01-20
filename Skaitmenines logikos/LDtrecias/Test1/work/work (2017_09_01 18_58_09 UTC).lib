@@ -1,0 +1,29 @@
+timestamp=1460212356195
+
+[~A]
+C:/Users/Z585/Desktop/LDtrecias/LD3/SchemaUNI.v=0*548*1628
+LastVerilogToplevel=SchemaUNI
+ModifyID=1
+Version=73
+
+[$root]
+A/$root=22|||1*0
+BinI32/$root=3*0
+SLP=3*104
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|c73a565f2ade592f8ac1c68f484c9216c2707d6e34d771ff9bc639735a76330b
+
+[SchemaUNI]
+A/SchemaUNI=22|./../../LD3/SchemaUNI.v|3|1*374
+BinI32/SchemaUNI=3*172
+R=./../../LD3/SchemaUNI.v|3
+SLP=3*280
+Version=10.2.3312.5682  (Windows)|0000000a789cd34d494a57d02d33ca360500104b02f0|22b08de8c52f5f94d51e5a9ddaae93f983c22aed297073afe124d3dbbc5a1cb489a121bc63f9c5b404dcc33d19f4c175
+
+[~MFT]
+0=4|0work.mgf|1628|0
+1=2|1work.mgf|374|0
+3=4|3work.mgf|280|0
+
+[~U]
+$root=12|0*0|
+SchemaUNI=12|0*182||0x10

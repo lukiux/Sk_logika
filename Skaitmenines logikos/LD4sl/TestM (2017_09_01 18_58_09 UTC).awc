@@ -1,0 +1,103 @@
+<config>
+    <version>
+        2.0
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="c0143dd37edd3eb72c5767033c000400">TESTAS/src/wave.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        
+        </signallist>
+    </signallists>
+    <propertybases>
+        <propertybase id="0">
+            <propclass name="radix">
+                <property first="1" last="1">
+                10
+                </property>
+            </propclass>
+            <propclass name="mode">
+            </propclass>
+            <propclass name="notation">
+                <property first="2" last="5">
+                1
+                </property>
+            </propclass>
+            <propclass name="reverse">
+            </propclass>
+            <propclass name="bold">
+            </propclass>
+            <propclass name="row_height">
+            </propclass>
+            <propclass name="color">
+            </propclass>
+            <propclass name="compared">
+            </propclass>
+            <propclass name="analog_bounds">
+                <property first="2" last="5">
+                [-1,1]
+                </property>
+            </propclass>
+            <propclass name="fixedpoint">
+            </propclass>
+            <propclass name="floating_encoding">
+            </propclass>
+            <propclass name="floating_notation">
+            </propclass>
+            <propclass name="floating_precision">
+            </propclass>
+            <propclass name="rounding_method">
+            </propclass>
+            <propclass name="aliasname">
+            </propclass>
+        </propertybase>
+    </propertybases>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="530475" />
+            <pref name="Start Time" value="225726" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="500000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+    <virtualsources>
+        <virtualnamedrows>
+        </virtualnamedrows>
+        <virtualbuses>
+            <virtualbus id="1" name="VBus0" group="false" analog="false">
+                    AAAABwQAAAIBBwEQEQAA
+|
+            </virtualbus>
+        </virtualbuses>
+        <virtualalias>
+        </virtualalias>
+        <virtualbusalias>
+        </virtualbusalias>
+        <virtualanalogalias>
+                AAAAJQk//wIFAAAQBAAAEAtcAAIMAAAQDdwABw8AABDAAB8AABARAAAA
+|
+        </virtualanalogalias>
+        <virtualanalogbusalias>
+        </virtualanalogbusalias>
+        </virtualsources>
+</config>

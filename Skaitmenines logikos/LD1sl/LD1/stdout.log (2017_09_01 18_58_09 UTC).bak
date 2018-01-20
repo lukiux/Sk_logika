@@ -1,0 +1,115 @@
+Running in Lattice mode
+
+sourcing C:\lscc\diamond\3.6_x64\synpbase\lib\message_override.tcl
+
+
+Starting:    C:\lscc\diamond\3.6_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.6_x64\synpbase
+Hostname:    IF11R201A-10
+Date:        Tue Mar 01 10:36:21 2016
+Version:     J-2015.03L-SP1
+
+Arguments:   -product synplify_pro -batch LD1_LD1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+log file: "E:\LD1sl\LD1\LD1_LD1.srr"
+
+Running: hdl_info_gen in foreground
+
+
+
+Generating HDL info...
+
+
+hdl_info_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+
+Copied E:\LD1sl\LD1\LD1_LD1.srr to E:\LD1sl\LD1\LD1_LD1.srf
+
+log file: "E:\LD1sl\LD1\LD1_LD1.srr"
+
+Running: LD1 in foreground
+
+
+
+Running proj_1|LD1
+
+
+Running: compile (Compile) on proj_1|LD1
+
+
+Running: compile_flow (Compile Process) on proj_1|LD1
+
+
+Running: compiler (Compile Input) on proj_1|LD1
+
+Copied E:\LD1sl\LD1\synwork\LD1_LD1_comp.srs to E:\LD1sl\LD1\LD1_LD1.srs
+
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:03s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on proj_1|LD1
+
+Copied E:\LD1sl\LD1\synwork\LD1_LD1_comp.srs to E:\LD1sl\LD1\synwork\LD1_LD1_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Copied E:\LD1sl\LD1\synwork\LD1_LD1_mult.srs to E:\LD1sl\LD1\LD1_LD1.srs
+
+Copied E:\LD1sl\LD1\LD1_LD1.srr to E:\LD1sl\LD1\LD1_LD1.srf
+
+Complete: Compile Process on proj_1|LD1
+
+
+Running: premap (Pre-mapping) on proj_1|LD1
+
+Copied E:\LD1sl\LD1\LD1_LD1.fse to E:\LD1sl\LD1\synwork\LD1_LD1_s.fse
+
+
+premap Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Complete: Compile on proj_1|LD1
+
+
+Running: map (Map) on proj_1|LD1
+
+
+Running: fpga_mapper (Map & Optimize) on proj_1|LD1
+
+Copied E:\LD1sl\LD1\synwork\LD1_LD1_m.srm to E:\LD1sl\LD1\LD1_LD1.srm
+
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+
+Complete: Map on proj_1|LD1
+
+Copied E:\LD1sl\LD1\LD1_LD1.srr to E:\LD1sl\LD1\LD1_LD1.srf
+
+Complete: Logic Synthesis on proj_1|LD1
+
+TCL script complete: "LD1_LD1_synplify.tcl"
+
+exit status=0
+
+exit status=0
+
+Save changes for project:
+E:\LD1sl\LD1\proj_1.prj
+
+batch mode default:no
+

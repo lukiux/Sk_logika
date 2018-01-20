@@ -1,0 +1,3 @@
+@W: CD638 :"C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPLIS.vhd":26:10:26:12|Signal gnd is undriven 
+@W: CD638 :"C:\Users\Z585\Desktop\LDtrecias\LD3\SchemaPLIS.vhd":27:10:27:12|Signal vcc is undriven 
+

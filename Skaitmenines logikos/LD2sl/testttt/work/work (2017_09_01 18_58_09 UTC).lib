@@ -1,0 +1,57 @@
+timestamp=1459800007064
+
+[~A]
+ModifyID=5
+Version=73
+
+[schemams1]
+A/schematic=A/SCHEMATIC 21|./../../impl1/schemaMS1.vhd|19|1*15105
+BinI32/schematic=3*1772
+I=0*2894
+I/schematic=I/SCHEMATIC 0*10911
+M=11|0|vc6|1459799985136|./../../impl1/schemaMS1.vhd|0*2461*0xcb3fb732641824b65dc0da841c4b79f561c8a72d|0*2806*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1459800006754|./../../impl1/schemaMS1.vhd|0*6473*0x7490bdba895ee73325a62568196bbe77a01e15e3|0*7884*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../impl1/schemaMS1.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|a4127e2214d2716ba9da8745a5eb0c73464bea8d2c95129b6a934fdff6908ac43c5c53f4e59234d7e44ec50a898c0197
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d714b2b37937195f5cdaddda71fbf3086a
+
+[schemams1_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/schemams1_TB.vhd|11|1*18854
+BinI32/tb_architecture=3*1998
+I=0*8865
+I/tb_architecture=I/TB_ARCHITECTURE 0*11345
+M=11|0|vc6|1459800002964|./../src/TestBench/schemams1_TB.vhd|0*8549*0xa57fd6f256f1b4fdc084e08834f0c6548a262db0|0*8766*0x5eebbfaf24833dd780412b1f91e05209
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vc6|1459800007006|./../src/TestBench/schemams1_TB.vhd|0*9031*0xd38ae452d97fe40b485d84e23eb40fa4f4278308|0*10027*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/schemams1_TB.vhd|8
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|2ea85b0759b27a28cec1001dacbdc1b1bd32f6ac4cb8219db6af266d9bc18d16b68239d5074a485cd717cf4686c39f8d
+Version/tb_architecture=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beaccf098facbdda12aa6798c8753e479e3
+
+[schemasr]
+A/schematic=A/SCHEMATIC 21|./../../impl1/schemaSR.vhd|19|1*6554
+BinI32/schematic=3*637
+I=0*627
+I/schematic=I/SCHEMATIC 0*6092
+M=11|0|vc6|1459799979134|./../../impl1/schemaSR.vhd|0*200*0xf0d71439b6827d6a8447bcf38a4f977b722c3208|0*541*0x5eebbfaf24833dd780412b1f91e05209
+M/schematic=M/SCHEMATIC 21|0|vc6|1459800002794|./../../impl1/schemaSR.vhd|0*5003*0xde638032c145b2ac21653b4ac02a09be9e1dee89|0*5993*0x856b180bf611ec746a6bfcb1befebd18
+R=./../../impl1/schemaSR.vhd|8
+Version=10.2.3312.5682  (Windows)|00000004789cd34d494a0700030f015b|210da2e83fd93179b1fce17867fe2cd50602192bf13219adeebae6c40f906a058088dd639c7e4d71ca683c354b475d64
+Version/schematic=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7b4d351b4cee69129b0f4e560f5d18536
+
+[testbench_for_schemams1]
+Configures=schemams1_tb.TB_ARCHITECTURE
+E=1*20410
+I=0*10802
+M=2|0|vc6|1459800007009|./../src/TestBench/schemams1_TB.vhd|0*10383*0x73222074158f3c48a2acee3946a74652f0f8e289|0*10677*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/TestBench/schemams1_TB.vhd|83
+Version=10.2.3312.5682  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5454395c4537b89829cdf73405a12d3ae26527262ddaa47cb266f3a3c4d9b973a08497aaccba1c040d9f33ad43caf084e
+
+[~MFT]
+0=2|0work.mgf|11345|4088
+1=4|1work.mgf|20410|12308
+3=2|3work.mgf|1998|1545
+
+[~U]
+schemams1=SCHEMAMS1 11|0*2259|
+schemams1_tb=11|0*8419|
+schemasr=SCHEMASR 11|0*0|
+testbench_for_schemams1=TESTBENCH_FOR_schemams1 2||

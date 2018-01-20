@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell SCHEMAPLIS
+   Instance path: SCHEMAPLIS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      16.00        100.0
+                                  LUT4	      23.00        100.0
+                                 IOBUF	         12        100.0
+                                PFUREG	          8        100.0

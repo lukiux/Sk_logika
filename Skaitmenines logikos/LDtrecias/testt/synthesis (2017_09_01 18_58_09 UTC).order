@@ -1,0 +1,5 @@
+i<>.\src\TestBench\schemapostumis_TB.vhd
+i<>.\src\TestBench\schemauni_TB.vhd
+i<>.\..\LD3\SchemaUNI.vhd
+i<>.\..\LD3\SchemaPostumis.vhd
+i<>.\..\LD3\SchemaPLIS.vhd

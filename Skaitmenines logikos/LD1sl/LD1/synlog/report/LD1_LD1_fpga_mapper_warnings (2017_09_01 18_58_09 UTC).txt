@@ -1,0 +1,3 @@
+@W: MT246 :"e:\ld1sl\ld1\dekoderis3.vhd":117:3:117:5|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"e:\ld1sl\ld1\dekoderis3.vhd":103:3:103:4|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT246 :"e:\ld1sl\ld1\dekoderis3.vhd":99:3:99:4|Blackbox OR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 

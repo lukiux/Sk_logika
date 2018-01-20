@@ -1,0 +1,6 @@
+
+sch2vhd -FPGA -lib LatticeXP2 -i C:/Users/Z585/Desktop/LD4sl/SchemaMsk.sch -o C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMsk.vhd -gui -msgset C:/Users/Z585/Desktop/LD4sl/promote.xml
+
+sch2vhd -FPGA -lib LatticeXP2 -i C:/Users/Z585/Desktop/LD4sl/SchemaMSK2.sch -o C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMSK2.vhd -gui -msgset C:/Users/Z585/Desktop/LD4sl/promote.xml
+
+sch2vhd -FPGA -lib LatticeXP2 -i C:/Users/Z585/Desktop/LD4sl/SchemaMskPLIS.sch -o C:/Users/Z585/Desktop/LD4sl/LD4/SchemaMskPLIS.vhd -gui -msgset C:/Users/Z585/Desktop/LD4sl/promote.xml
